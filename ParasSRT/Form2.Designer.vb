@@ -82,6 +82,7 @@ Partial Public Class frmTest
         Me.Label14 = New System.Windows.Forms.Label
         Me.cmbRange2 = New System.Windows.Forms.ComboBox
         Me.Panel1 = New System.Windows.Forms.Panel
+        Me.Label15 = New System.Windows.Forms.Label
         Me.lblLoc = New System.Windows.Forms.Label
         Me.cmbRWS = New System.Windows.Forms.ComboBox
         Me.cmbLhRh = New System.Windows.Forms.ComboBox
@@ -146,7 +147,6 @@ Partial Public Class frmTest
         Me.txtLoc1 = New System.Windows.Forms.TextBox
         Me.cmbRecord = New System.Windows.Forms.ComboBox
         Me.lblRecord = New System.Windows.Forms.Label
-        Me.Label15 = New System.Windows.Forms.Label
         Me.Panel4.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -770,6 +770,15 @@ Partial Public Class frmTest
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(870, 550)
         '
+        'Label15
+        '
+        Me.Label15.Font = New System.Drawing.Font("Tahoma", 16.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
+        Me.Label15.ForeColor = System.Drawing.Color.White
+        Me.Label15.Location = New System.Drawing.Point(14, 239)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(176, 28)
+        Me.Label15.Text = "FLAW DETAILS"
+        '
         'lblLoc
         '
         Me.lblLoc.Font = New System.Drawing.Font("Tahoma", 16.0!, System.Drawing.FontStyle.Bold)
@@ -1229,19 +1238,19 @@ Partial Public Class frmTest
         'txtHM
         '
         Me.txtHM.Font = New System.Drawing.Font("Tahoma", 16.0!, System.Drawing.FontStyle.Bold)
-        Me.txtHM.Location = New System.Drawing.Point(246, 281)
+        Me.txtHM.Location = New System.Drawing.Point(238, 281)
         Me.txtHM.Name = "txtHM"
-        Me.txtHM.Size = New System.Drawing.Size(102, 32)
+        Me.txtHM.Size = New System.Drawing.Size(129, 32)
         Me.txtHM.TabIndex = 22
         '
         'lblHM
         '
         Me.lblHM.Font = New System.Drawing.Font("Tahoma", 16.0!, System.Drawing.FontStyle.Bold)
         Me.lblHM.ForeColor = System.Drawing.Color.White
-        Me.lblHM.Location = New System.Drawing.Point(161, 281)
+        Me.lblHM.Location = New System.Drawing.Point(153, 281)
         Me.lblHM.Name = "lblHM"
         Me.lblHM.Size = New System.Drawing.Size(86, 32)
-        Me.lblHM.Text = "HM BP"
+        Me.lblHM.Text = "HM/BP"
         '
         'txtPH
         '
@@ -1409,7 +1418,7 @@ Partial Public Class frmTest
         '
         Me.lblTyp.Font = New System.Drawing.Font("Tahoma", 16.0!, System.Drawing.FontStyle.Bold)
         Me.lblTyp.ForeColor = System.Drawing.Color.White
-        Me.lblTyp.Location = New System.Drawing.Point(364, 280)
+        Me.lblTyp.Location = New System.Drawing.Point(368, 280)
         Me.lblTyp.Name = "lblTyp"
         Me.lblTyp.Size = New System.Drawing.Size(69, 32)
         Me.lblTyp.Text = "TYPE"
@@ -1438,15 +1447,6 @@ Partial Public Class frmTest
         Me.lblRecord.Name = "lblRecord"
         Me.lblRecord.Size = New System.Drawing.Size(109, 29)
         Me.lblRecord.Text = "RECORD"
-        '
-        'Label15
-        '
-        Me.Label15.Font = New System.Drawing.Font("Tahoma", 16.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
-        Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(14, 239)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(176, 28)
-        Me.Label15.Text = "FLAW DETAILS"
         '
         'frmTest
         '

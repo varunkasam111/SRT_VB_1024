@@ -753,10 +753,10 @@ Public Class frmTest
                         Case 24, 127 : If cmbFLoc.SelectedIndex > 0 Then cmbFLoc.SelectedIndex -= 1
                         Case 25, 129 : If cmbClass.SelectedIndex > 0 Then cmbClass.SelectedIndex -= 1
                         Case 26, 130 : If cmbCode.SelectedIndex > 0 Then cmbCode.SelectedIndex -= 1
-                        Case 29, 134 : If cmbTyp2.SelectedIndex > 0 Then cmbTyp2.SelectedIndex -= 1
-                        Case 30, 135 : If cmbFLoc2.SelectedIndex > 0 Then cmbFLoc2.SelectedIndex -= 1
-                        Case 31, 136 : If cmbClass2.SelectedIndex > 0 Then cmbClass2.SelectedIndex -= 1
-                        Case 32, 131 : If cmbCode2.SelectedIndex > 0 Then cmbCode2.SelectedIndex -= 1
+                        Case 27, 131 : If cmbCode2.SelectedIndex > 0 Then cmbCode2.SelectedIndex -= 1
+                        Case 30, 134 : If cmbTyp2.SelectedIndex > 0 Then cmbTyp2.SelectedIndex -= 1
+                        Case 31, 135 : If cmbFLoc2.SelectedIndex > 0 Then cmbFLoc2.SelectedIndex -= 1
+                        Case 32, 136 : If cmbClass2.SelectedIndex > 0 Then cmbClass2.SelectedIndex -= 1
                         Case 33, 138 : If cmbCris.SelectedIndex > 0 Then cmbCris.SelectedIndex -= 1
                     End Select
 
@@ -780,10 +780,10 @@ Public Class frmTest
                         Case 24, 127 : If cmbFLoc.SelectedIndex < cmbFLoc.Items.Count - 1 Then cmbFLoc.SelectedIndex += 1
                         Case 25, 129 : If cmbClass.SelectedIndex < cmbClass.Items.Count - 1 Then cmbClass.SelectedIndex += 1
                         Case 26, 130 : If cmbCode.SelectedIndex < cmbCode.Items.Count - 1 Then cmbCode.SelectedIndex += 1
-                        Case 29, 134 : If cmbTyp2.SelectedIndex < cmbTyp2.Items.Count - 1 Then cmbTyp2.SelectedIndex += 1
-                        Case 30, 135 : If cmbFLoc2.SelectedIndex < cmbFLoc2.Items.Count - 1 Then cmbFLoc2.SelectedIndex += 1
-                        Case 31, 136 : If cmbClass2.SelectedIndex < cmbClass2.Items.Count - 1 Then cmbClass2.SelectedIndex += 1
-                        Case 32, 131 : If cmbCode2.SelectedIndex < cmbCode2.Items.Count - 1 Then cmbCode2.SelectedIndex += 1
+                        Case 27, 131 : If cmbCode2.SelectedIndex < cmbCode2.Items.Count - 1 Then cmbCode2.SelectedIndex += 1
+                        Case 30, 134 : If cmbTyp2.SelectedIndex < cmbTyp2.Items.Count - 1 Then cmbTyp2.SelectedIndex += 1
+                        Case 31, 135 : If cmbFLoc2.SelectedIndex < cmbFLoc2.Items.Count - 1 Then cmbFLoc2.SelectedIndex += 1
+                        Case 32, 136 : If cmbClass2.SelectedIndex < cmbClass2.Items.Count - 1 Then cmbClass2.SelectedIndex += 1
                         Case 33, 138 : If cmbCris.SelectedIndex < cmbCris.Items.Count - 1 Then cmbCris.SelectedIndex += 1
                     End Select
 
