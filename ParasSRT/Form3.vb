@@ -4792,7 +4792,7 @@ End If
                         objGraphics.DrawLine(tpen, pt1(i).X, 592, pt1(i).X, pt1(i).Y)
                     End If
 
-                    If pt1(i).Y = 592 Then '370 Then
+                    If pt1(i).Y = Bm Then '370 Then
                         Continue For
                     End If
 
@@ -4949,7 +4949,7 @@ End If
                         objGraphics.DrawLine(tpen, pt1(i).X, 592, pt1(i).X, pt1(i).Y)
                     End If
 
-                    If pt1(i).Y = 592 Then '370 Then
+                    If pt1(i).Y = Bm Then '370 Then
                         Continue For
                     End If
 
@@ -5921,7 +5921,7 @@ End If
                     End If
                 Next
 
-                vmax /= 2.4
+                vmax /= 2.55
 
                 pt1(upt - 1).Y = Bm
                 pt1(upt).X = Lm2
@@ -6359,7 +6359,7 @@ End If
                     End If
                 Next
 
-                vmax /= 2.4
+                vmax /= 2.55 ' 2.4
 
                 pt1(upt - 1).Y = Bm
                 pt1(upt).X = Lm2
@@ -6514,7 +6514,7 @@ End If
                 Dim ph_value As Integer = st(27)
 
                 For i = 0 To upt
-                    If pt1(i).Y = 593 Then '370 Then
+                    If pt1(i).Y = Bm Then '370 Then
                         Continue For
                     End If
 
@@ -6691,12 +6691,12 @@ End If
                     dd = Rangemm(imax, j)
 
                     Dim dd1 As Single = Rangemm(imax, j)
-                    objGraphics.DrawString("PH=" & Format(vmax / 2.4, "0"), objfont, objBrush2, 150, 10)
+                    objGraphics.DrawString("PH=" & Format(vmax / 2.55, "0"), objfont, objBrush2, 150, 10)
                     objGraphics.DrawString("BP=" & Format(dd, "0") & "[" & Format(dd, "0") & "-" & Format(dd, "0") & "]", objfont, objBrush2, 200, 10)
 
                     If caltyp = 4 Then
                         If TotNch <= 5 Then frmTest.lblHM.Text = "BP"
-                        frmTest.txtPH.Text = Format(vmax / 2.4, "0")
+                        frmTest.txtPH.Text = Format(vmax / 2.55, "0")
                         frmTest.txtHM.Text = Format(dd, "0")
                         frmTest.txtCh.Text = Format(j + 1, "00")
                         frmTest.cmbLR.SelectedIndex = IIf(chnl < 10, 0, 1)
@@ -6831,7 +6831,7 @@ End If
 
                     Dim dd1 As Single = Rangemm(imin, j)
                     Dim t As String = Me.Text
-                    st1 = Format(vmax / 2.4 * 1.6, "0")
+                    st1 = Format(vmax / 2.55, "0")
                     st2 = Format(dd1, "0")
                     If BPval < 0 Then
                         st3 = Format(0, "0")
@@ -6865,7 +6865,7 @@ End If
 
                     If caltyp = 4 Then
                         If TotNch <= 5 Then frmTest.lblHM.Text = "BP"
-                        frmTest.txtPH.Text = Format(vmax / 2.4, "0")
+                        frmTest.txtPH.Text = Format(vmax / 2.55, "0")
                         frmTest.txtHM.Text = Format(dd, "0")
                         frmTest.txtCh.Text = Format(chnl + 1, "0")
                         frmTest.cmbLR.SelectedIndex = IIf(chnl < 10, 0, 1)

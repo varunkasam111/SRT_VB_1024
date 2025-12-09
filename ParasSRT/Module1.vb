@@ -331,7 +331,7 @@ Module Module1
     'Public meheight As Integer = 480
     Public mewidth As Integer = 1024
     Public meheight As Integer = 768
-    Public ymax As Integer = 240
+    Public ymax As Integer = 255 '240
     Public ymaxS As Single = ymax / 100
     Public keyprocessing As Boolean = False
     Public IsKeyDown As Boolean = False

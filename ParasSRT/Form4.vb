@@ -994,7 +994,7 @@ Public Class frmData
                             End If
                         Next
                     Next
-                    vmax /= 2.4
+                    vmax /= 2.55
                     Dim dd As Single = Rangemm(imax, curi)
                     dspst(24) = vmax.ToString("00")
                     dspst(25) = dd.ToString("0.0")
