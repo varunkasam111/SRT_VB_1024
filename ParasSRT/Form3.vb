@@ -6784,6 +6784,7 @@ End If
                 upt = DataArr(j, 2)
                 sx = bmp.Width / upt
                 nz = bmp.Height
+                sy = nz / ymax
                 gs = DataArr(j, 4)              '* sx
                 ge = gs + DataArr(j, 5)         '* sx
                 gs2 = DataArr(j, 7)              '* sx
@@ -6812,7 +6813,7 @@ End If
                         End If
                     End If
 
-                    vv = nz - vv
+                    vv = nz - vv * sy
                     i3 = Int(i * sx)
                     If pt0(i3).Y > vv Then pt0(i3).Y = vv
                 Next i
