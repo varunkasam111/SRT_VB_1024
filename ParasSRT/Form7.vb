@@ -3,6 +3,7 @@ Imports System
 Imports System.Windows
 Imports System.Windows.Forms
 Imports Microsoft.VisualBasic
+Imports System.Runtime.InteropServices
 
 Public Class frmLog
 
@@ -26,7 +27,35 @@ Public Class frmLog
     Dim boolc As Boolean
     Dim pstarted As Boolean
     Dim p As Process
+    <DllImport("coredll.dll", SetLastError:=True, CharSet:=CharSet.Auto)> _
+   Private Shared Function GetDiskFreeSpaceEx( _
+       ByVal lpDirectoryName As String, _
+       ByRef lpFreeBytesAvailable As Long, _
+       ByRef lpTotalNumberOfBytes As Long, _
+       ByRef lpTotalNumberOfFreeBytes As Long) As Boolean
+    End Function
+    Public Function GetSDSpace(ByVal sdPath As String) As String
+        Dim freeBytes As Long = 0
+        Dim totalBytes As Long = 0
+        Dim totalFreeBytes As Long = 0
 
+        Dim ok As Boolean = GetDiskFreeSpaceEx(sdPath, freeBytes, totalBytes, totalFreeBytes)
+
+        If ok = False Then
+            Return "Error reading SD card"
+        End If
+
+        Return "  Total Space: " & FormatBytes(totalBytes) & "     Free Space: " & FormatBytes(freeBytes)
+    End Function
+    Private Function FormatBytes(ByVal bytes As Long) As String
+        If bytes > 1024L * 1024L * 1024L Then
+            Return Math.Round(bytes / 1024.0 / 1024.0 / 1024.0, 2) & " GB"
+        ElseIf bytes > 1024L * 1024L Then
+            Return Math.Round(bytes / 1024.0 / 1024.0, 2) & " MB"
+        Else
+            Return Math.Round(bytes / 1024.0, 2) & " KB"
+        End If
+    End Function
     Private Sub frmLog_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
         Try
@@ -64,6 +93,8 @@ Public Class frmLog
             Me.lblOpts2.Visible = False
             Me.lblOpts3.Visible = False
             Me.Warning.Visible = False
+
+            Me.LabelAvailSpaceVal.Text = GetSDSpace(StorageCard)
 
             DirList()
             SubDirList()
@@ -202,6 +233,8 @@ Public Class frmLog
                         DirList()
                         SubDirList()
                         FileList()
+                        Me.LabelAvailSpaceVal.Text = GetSDSpace(StorageCard)
+                        Me.Refresh()
 
                         Me.lblDeleteAll.Visible = True
                         Me.lblDelete.Visible = True
@@ -227,6 +260,8 @@ Public Class frmLog
                         DirList()
                         SubDirList()
                         FileList()
+                        Me.LabelAvailSpaceVal.Text = GetSDSpace(StorageCard)
+                        Me.Refresh()
 
                         Me.lblDeleteAll.Visible = True
                         Me.lblDelete.Visible = True

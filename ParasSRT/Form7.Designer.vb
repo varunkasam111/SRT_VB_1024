@@ -37,6 +37,7 @@ Partial Public Class frmLog
         Me.ListBox1 = New System.Windows.Forms.ListBox
         Me.Panel1 = New System.Windows.Forms.Panel
         Me.ListBox3 = New System.Windows.Forms.ListBox
+        Me.LabelAvailSpaceVal = New System.Windows.Forms.Label
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -199,6 +200,7 @@ Partial Public Class frmLog
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.Panel1.Controls.Add(Me.LabelAvailSpaceVal)
         Me.Panel1.Controls.Add(Me.ListBox3)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.ListBox2)
@@ -207,7 +209,7 @@ Partial Public Class frmLog
         Me.Panel1.Controls.Add(Me.ListBox1)
         Me.Panel1.Location = New System.Drawing.Point(1, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(836, 680)
+        Me.Panel1.Size = New System.Drawing.Size(836, 702)
         '
         'ListBox3
         '
@@ -216,6 +218,14 @@ Partial Public Class frmLog
         Me.ListBox3.Name = "ListBox3"
         Me.ListBox3.Size = New System.Drawing.Size(382, 626)
         Me.ListBox3.TabIndex = 14
+        '
+        'LabelAvailSpaceVal
+        '
+        Me.LabelAvailSpaceVal.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular)
+        Me.LabelAvailSpaceVal.Location = New System.Drawing.Point(5, 669)
+        Me.LabelAvailSpaceVal.Name = "LabelAvailSpaceVal"
+        Me.LabelAvailSpaceVal.Size = New System.Drawing.Size(571, 29)
+        Me.LabelAvailSpaceVal.Text = "LabelAvailSpaceVal"
         '
         'frmLog
         '
@@ -261,6 +271,7 @@ Partial Public Class frmLog
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents ListBox3 As System.Windows.Forms.ListBox
+    Friend WithEvents LabelAvailSpaceVal As System.Windows.Forms.Label
 
 
 End Class
