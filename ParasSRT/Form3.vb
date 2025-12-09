@@ -2929,13 +2929,13 @@ Public Class frmCalib
 
                 objGraphicsB.DrawLine(objPens(j Mod 9), 0, 239 * 1.6, 319 * 1.6, 239 * 1.6) 'varun BASE LINE FOR GRID
 
-                If Convert.ToInt32(DataArr(j, 6)) <= 24 Then
+                If Convert.ToInt32(DataArr(j, 6)) <= 26 Then
                     'gate 1
                     objGraphicsB.DrawLine(objPens(j Mod 10), sx * g, t, sx * (g + DataArr(j, 5)), t)
-                ElseIf Convert.ToInt32(DataArr(j, 6)) <= 48 Then
+                ElseIf Convert.ToInt32(DataArr(j, 6)) <= 51 Then
                     'gate 1
                     objGraphicsB.DrawLine(objPens(j Mod 10), sx * g, t + 2, sx * (g + DataArr(j, 5)), t + 2)
-                ElseIf Convert.ToInt32(DataArr(j, 6)) <= 72 Then
+                ElseIf Convert.ToInt32(DataArr(j, 6)) <= 77 Then
                     'gate 1
                     objGraphicsB.DrawLine(objPens(j Mod 10), sx * g, t + 2, sx * (g + DataArr(j, 5)), t + 2)
                 Else
@@ -2943,20 +2943,19 @@ Public Class frmCalib
                     objGraphicsB.DrawLine(objPens(j Mod 10), sx * g, t, sx * (g + DataArr(j, 5)), t)
                 End If
 
-                If j = 0 Then
-                    If Convert.ToInt32(DataArr(j, 9)) <= 24 Then
-                        'gate 2
-                        objGraphicsB.DrawLine(objPens(j Mod 10), sx * g2, t2, sx * (g2 + DataArr(j, 8)), t2)
-                    ElseIf Convert.ToInt32(DataArr(j, 9)) <= 48 Then
-                        'gate 2
-                        objGraphicsB.DrawLine(objPens(j Mod 10), sx * g2, t2 + 2, sx * (g2 + DataArr(j, 8)), t2 + 2)
-                    ElseIf Convert.ToInt32(DataArr(j, 9)) <= 72 Then
-                        'gate 2
-                        objGraphicsB.DrawLine(objPens(j Mod 9), sx * g2, t2 + 2, sx * (g2 + DataArr(j, 8)), t2 + 2)
-                    Else
-                        'gate 2
-                        objGraphicsB.DrawLine(objPens(j Mod 9), sx * g2, t2, sx * (g2 + DataArr(j, 8)), t2)
-                    End If
+
+                If Convert.ToInt32(DataArr(j, 9)) <= 26 Then
+                    'gate 2
+                    objGraphicsB.DrawLine(objPens(j Mod 10), sx * g2, t2, sx * (g2 + DataArr(j, 8)), t2)
+                ElseIf Convert.ToInt32(DataArr(j, 9)) <= 51 Then
+                    'gate 2
+                    objGraphicsB.DrawLine(objPens(j Mod 10), sx * g2, t2 + 2, sx * (g2 + DataArr(j, 8)), t2 + 2)
+                ElseIf Convert.ToInt32(DataArr(j, 9)) <= 77 Then
+                    'gate 2
+                    objGraphicsB.DrawLine(objPens(j Mod 9), sx * g2, t2 + 2, sx * (g2 + DataArr(j, 8)), t2 + 2)
+                Else
+                    'gate 2
+                    objGraphicsB.DrawLine(objPens(j Mod 9), sx * g2, t2, sx * (g2 + DataArr(j, 8)), t2)
                 End If
 
             Next j
