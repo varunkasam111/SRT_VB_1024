@@ -289,6 +289,8 @@ Public Class frmCalib
     Dim isValidIn As Boolean
     Dim isRefresh As Boolean
 
+    Dim deleteConfirm As Boolean = False
+
     Dim maxcount As Integer = 99, maxgain As Integer = 80, maxdelay As Integer = 225, maxrange As Integer = 600, maxreject As Integer = 99, maxangle As Integer = 90, maxthreshold As Integer = 99, maxGate As Integer = 99
 
     Public Sub frmCalib_Closed(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Closed
@@ -1529,6 +1531,10 @@ Public Class frmCalib
             Me.lblZoomM.Visible = False
             Me.lblZoomP.Visible = False
             Me.lblZoomR.Visible = False
+
+            Me.PictureBox1.Visible = False
+            Me.PictureBox1.Left = (Me.Width - Me.PictureBox1.Width) / 2
+            Me.PictureBox1.Top = Me.Height / 2 - Me.PictureBox1.Height
 
             mnu = 20
 
@@ -9237,11 +9243,35 @@ End If
                         Me.Text = cap
 
                     Case MKey4
-                        Me.Text = cap & " - Deleting"
-                        cnfnam = ListBox1.Items(ListBox1.SelectedIndex)
-                        cnfnam = AppPath & "\" & cnfnam & ".cnf"
-                        DelConfig()
-                        Add2CnfList()
+                        'Me.Text = cap & " - Deleting"
+                        'cnfnam = ListBox1.Items(ListBox1.SelectedIndex)
+                        'cnfnam = AppPath & "\" & cnfnam & ".cnf"
+                        'DelConfig()
+                        'Add2CnfList()
+                        'Me.Text = cap
+                        If ListBox1.Items.Count > 1 Then
+                            If deleteConfirm = False Then
+                                Me.PictureBox1.Visible = True
+                                deleteConfirm = True
+                                'Exit Select
+                                Me.Text = cap
+                            End If
+                        Else
+                            Me.Text = cap & " - Cannot Delete : Atleast One calset is mandatory"
+                        End If
+
+                    Case FKeyRun
+                        ' If user pressed MKey4(FkeyRun) second time → delete
+                        If deleteConfirm = True Then
+                            deleteConfirm = False
+                            Me.PictureBox1.Visible = False
+                            Me.Text = cap & " - Deleting"
+                            cnfnam = ListBox1.Items(ListBox1.SelectedIndex)
+                            cnfnam = AppPath & "\" & cnfnam & ".cnf"
+                            DelConfig()
+                            Add2CnfList()
+                            Me.Text = cap
+                        End If
                         Me.Text = cap
 
                     Case MKey5
@@ -9299,6 +9329,11 @@ End If
                         SetTextBox()
 
                     Case EsKey
+                        If deleteConfirm = True Then
+                            deleteConfirm = False
+                            Me.PictureBox1.Visible = False
+                            'Exit Select
+                        End If
                         Me.Text = frmcap
 
                 End Select

@@ -19,6 +19,7 @@ Partial Public Class frmCalib
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCalib))
         Me.lblZoomR = New System.Windows.Forms.Label
         Me.lblZoomL = New System.Windows.Forms.Label
         Me.lblZoomP = New System.Windows.Forms.Label
@@ -62,6 +63,7 @@ Partial Public Class frmCalib
         Me.lblC9 = New System.Windows.Forms.Label
         Me.lblC10 = New System.Windows.Forms.Label
         Me.lblMenu8 = New System.Windows.Forms.Label
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -522,6 +524,13 @@ Partial Public Class frmCalib
         Me.lblMenu8.Text = "Save"
         Me.lblMenu8.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(656, 87)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(242, 243)
+        '
         'frmCalib
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
@@ -529,6 +538,7 @@ Partial Public Class frmCalib
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(1024, 768)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblMenu8)
         Me.Controls.Add(Me.lblC10)
         Me.Controls.Add(Me.lblC9)
@@ -620,4 +630,5 @@ Partial Public Class frmCalib
     Friend WithEvents lblC9 As System.Windows.Forms.Label
     Friend WithEvents lblC10 As System.Windows.Forms.Label
     Friend WithEvents lblMenu8 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class
