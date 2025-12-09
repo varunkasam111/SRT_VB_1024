@@ -1,0 +1,676 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head><title>
+	Windows CE: Guide to Setting Thread Priorities
+</title><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><meta name="author" content="Bruce Eitman" /><meta name="Generator" content="Subtext Version 0.0.0.0" /><link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="http://geekswithblogs.net/BruceEitman/Rss.aspx" /><link media="screen" type="text/css" rel="stylesheet" href="/scripts/lightbox.css"></link>
+<link type="text/css" rel="stylesheet" href="/scripts/XFNHighlighter.css"></link>
+<link type="text/css" rel="stylesheet" href="/skins/_System/csharp.css"></link>
+<link type="text/css" rel="stylesheet" href="/skins/_System/commonstyle.css"></link>
+<link type="text/css" rel="stylesheet" href="/skins/_System/commonlayout.css"></link>
+<link media="all" type="text/css" rel="stylesheet" href="/Skins/Origami/Styles/user-styles.css"></link>
+<link media="print" type="text/css" rel="stylesheet" href="/Skins/Origami/Styles/print.css"></link>
+<link media="screen" type="text/css" rel="stylesheet" href="/Skins/Origami/Styles/core.css"></link>
+<link media="screen" type="text/css" rel="stylesheet" href="/Skins/Origami/Styles/tables.css"></link>
+<!--[if IE]>
+<link media="screen" type="text/css" rel="stylesheet" href="/Skins/Origami/Styles/core-IE.css"></link>
+<![endif]-->
+<!--[if IE 5]>
+<link media="screen" type="text/css" rel="stylesheet" href="/Skins/Origami/Styles/ie5_5.css"></link>
+<![endif]-->
+<link id="MainStyle" type="text/css" rel="stylesheet" href="/skins/Origami/style.css" /><link id="Rsd" rel="EditURI" type="application/rsd+xml" title="RSD" href="http://geekswithblogs.net/BruceEitman/rsd.xml.ashx" /><link id="AtomLink" title="RSS" type="application/rss+xml" rel="alternate" href="http://geekswithblogs.net/BruceEitman/Rss.aspx" /><script src="/Scripts/common.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var subtextAllowedHtmlTags = ['a', 'b', 'strong', 'blockquote', 'i', 'em', 'u', 'strike', 'super', 'sub', 'code'];
+			var subtextBlogInfo = new blogInfo('/', '/BruceEitman/');
+		</script>
+		<script type="text/javascript" src="/scripts/prototype.js"></script>
+<script type="text/javascript" src="/scripts/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="/scripts/lightbox.js" defer="defer"></script>
+<script type="text/javascript" src="/scripts/LiveCommentPreview.js" defer="defer"></script>
+<script type="text/javascript" src="/scripts/ExternalLinks.js" defer="defer"></script>
+<script type="text/javascript" src="/scripts/XFNHighlighter.js" defer="defer"></script>
+<script type="text/javascript" src="/Skins/Origami/Scripts/cookies.js"></script>
+<script type="text/javascript" src="/Skins/Origami/Scripts/init.js"></script>
+<script type="text/javascript" src="/Skins/Origami/Scripts/behaviour.js"></script>
+<script type="text/javascript" src="/Skins/Origami/Scripts/coreFunctions.js"></script>
+<script type="text/javascript" src="/Skins/Origami/Scripts/styleSwitcher.js"></script>
+<link rel="pingback" href="http://geekswithblogs.net/BruceEitman/Services/Pingback.aspx"></link></head>
+	<body>
+		<form name="Form1" method="post" action="windows-ce-guide-to-setting-thread-priorities.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="
+__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=FVirHmS7FwqFvYIxQ7I-XqPVqU3h-8Me8OWN6zY2WFAq2X7_uI9R42XtB215Ui9l1LYILIZs4ARcEjhDmiB7x7Acy2k1&amp;t=634210184576316535" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=SHFcZLKoyguxvXiPxZT08VplKhFzLfA4abAuKQ-a5tohlUEArUwGFJm1avq_rGK7uxDFROFrt6UISSirVaHNtAg3RubRPRu-6KZXImwsbYUwrit8ttPvBtlQiLieOzetma_GbOIRFaAywCna8ZDWkGL429s1&amp;t=7454ab1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=W6DJ8vTs5mT3dh9ZFYq5Btvzqs_TwVbVTVUCQRNm47PCibUHp4sMNMeAHy2mDiraoYmyTttt6AJWE-DbTMX4s2B4kTy7jyMjcQRKY00N3fWSOhdf-Ud3FKX8pxkEkja_7HysktIfU47P8-ExB5zlP_w_HBA1&amp;t=ffffffff92a3551b" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=rCl_bn_ZVWuoJfJ3iq2cO1gN2625hxBLhPuymItu1WGPC2mfrjVKS-sBuIGR9TzzMOtRc1f7sDbUHdLPxyKmEKn0Z_LG58pRJB3TPycXoWYBKrYC_UCrlA6X1e_iwhpq3rgAR7r2SJYgxoN2YbLThC-gc4BmV7KCQIVzTpIlPuqolGbU0&amp;t=ffffffff92a3551b" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('SubtextScriptManager', document.getElementById('Form1'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tsearch$searchUpdate','tapnlCommentsWrapper'], ['search$btnSearch'], [], 90);
+//]]>
+</script>
+
+			
+<script type="text/javascript">setUserStyles();</script>
+<div class="clearfix" id="container">
+    <div id="sizer">
+        <div id="expander">
+            
+<div id="header">
+                    <div id="jump-menu">
+                        <h3>Jump Menu</h3>
+                        <ul class="menu horizontal clearfix">
+                            <li><a id="skipToNav" title="Jump to Navigation" href="#sidebar">Navigation</a> </li>
+                            <li><a id="skipToContent" title="Jump to Content" href="#content">Content</a> </li>
+                            <li><a id="skipToSearch" title="Jump to Search" onclick="document.getElementById('q').focus(); return false;" href="#q">Search</a> </li>
+                        </ul>
+                    </div>
+                    <div id="personalize">
+                        <div id="personalization-help">
+                            <h2><a title="What do all these icons mean?" href="#"></a></h2>
+                            <div id="personalization-instructions" style="display: none">
+                                <h3>So what are all these buttons for?</h3>
+                                <p>This blog has personalition features for you, the reader. Below is a key of what all the icons mean and which aspects of the layout they change.</p>
+                                <ol class="menu">
+                                    <li><img src="../../../../../skins/origami/images/icon_mediumText.png" alt="Set font size to medium (default)" style="border-width:0px;" />Set font size to medium (default) </li>
+                                    <li><img src="../../../../../skins/origami/images/icon_largeText.png" alt="Set font size to large" style="border-width:0px;" />Set font size to large </li>
+                                    <li><img src="../../../../../skins/origami/images/icon_xLargeText.png" alt="Set font size to x-large" style="border-width:0px;" />Set font size to x-large </li>
+                                    <li><img src="../../../../../skins/origami/images/icon_jello.png" alt="Set layout to 'Jello' (min-width:770px \ max-width:1200px)" style="border-width:0px;" />Set layout to "Jello" (min-width:770px \ max-width:1200px) (default) </li>
+                                    <li><img src="../../../../../skins/origami/images/icon_fluid.png" alt="Set layout to 'Fluid' (width: 100%)" style="border-width:0px;" />Set layout to "Fluid" (width: 100%) </li>
+                                    <li><img src="../../../../../skins/origami/images/icon_fixed.png" alt="Set layout to 'Fixed' (width: 760px) (default)" style="border-width:0px;" />Set layout to "Fixed" (width: 760px) </li>
+                                    <li><img src="../../../../../skins/origami/images/icon_rightSideBar.png" alt="Place navigation on the right of the screen (default)" style="border-width:0px;" />Place navigation on the right of the screen (default) </li>
+                                    <li><img src="../../../../../skins/origami/images/icon_leftSideBar.png" alt="Place navigation on the left of the screen" style="border-width:0px;" />Place navigation on the left of the screen </li>
+                                </ol>
+                                <p id="personalization-instructions-close"><a title="Close Help Instructions" href="#">Close Window</a></p>
+                            </div>
+                        </div>
+                        <h3>Personalize</h3>
+                        <h4>Text Size</h4>
+                        <ul class="menu horizontal clearfix" id="text-size">
+                            <li><a id="mediumText" title="Medium Font Size (Default)" href="pages/javascript-error">Medium Font Size (Default)</a> </li>
+                            <li><a id="largeText" title="Large Font Size (Large Font Size)" href="pages/javascript-error">Large Font Size</a> </li>
+                            <li><a id="xLargeText" title="X-Large Font Size (X-Large Font Size)" href="pages/javascript-error">X-Large Font Size</a> </li>
+                        </ul>
+                        <h4>Layout</h4>
+                        <ul class="menu horizontal clearfix" id="layout">
+                            <li><a id="jelloLayout" title="Jello Layout (Minimum Width:770px \ Max-Width:1200px)" href="pages/javascript-error">Jello Layout</a> </li>
+                            <li><a id="fluidLayout" title="Fluid Layout (100% Width)" href="pages/javascript-error">Fluid Width Layout</a> </li>
+                            <li><a id="fixedLayout" title="Fixed Width Layout (770px Wide)" href="pages/javascript-error">Fixed Width Layout</a> </li>
+                        </ul>
+                        <h4>Navigation Position</h4>
+                        <ul class="menu horizontal clearfix" id="navigation-position">
+                            <li><a id="leftNav" title="Left Navigation" href="pages/javascript-error">Left Navigation</a> </li>
+                            <li><a id="rightNav" title="Right Navigation" href="pages/javascript-error">Right Navigation</a> </li>
+                        </ul>
+                    </div>
+                    <div id="logo">
+                        <h1 id="site-name"><a id="Header_HeaderTitle" title="The Title Of This Blog." href="/BruceEitman/Default.aspx">Bruce Eitman</a></h1>
+                        <h2 id="sub-title">Windows CE Musings</h2>
+                    </div>
+                </div>
+            <div class="clearfix" id="content">
+                <div id="main-wrapper">
+                    <div id="main">
+                        
+					
+
+<div class="post normal-post"> 
+    
+<div class="previousNext">
+	<a id="viewpost_ascx_PreviousNext_PrevLink" title="previous post" href="http://geekswithblogs.net/BruceEitman/archive/2009/02/08/windows-ce-detecting-timer-interrupt-failures.aspx"><< Windows CE: Detecting Timer Interrupt Failures</a>
+	<span id="viewpost_ascx_PreviousNext_LeftPipe" class="prevNextSeparator"> | </span>
+	<a id="viewpost_ascx_PreviousNext_MainLink" href="/BruceEitman/Default.aspx">Home</a>
+	<span id="viewpost_ascx_PreviousNext_RightPipe" class="prevNextSeparator"> | </span>
+	<a id="viewpost_ascx_PreviousNext_NextLink" title="next post" href="http://geekswithblogs.net/BruceEitman/archive/2009/02/14/windows-ce-monitor-power-state-changes.aspx">Windows CE: Monitor Power State Changes >></a>
+</div>
+
+    <h1 class="post-title"><a id="viewpost_ascx_TitleUrl" title="Title of this entry." href="/BruceEitman/archive/2009/02/13/windows-ce-guide-to-setting-thread-priorities.aspx">Windows CE: Guide to Setting Thread Priorities</a></h1>
+    <div class="post-content"><br/><div style="MARGIN: 0in 0in 10pt">Windows CE has supported 256 thread priorities since version 3.0. Microsoft increased the number of thread priorities at that time to enhance the Windows CE real-time performance. With so many thread priorities, how can a system engineer determine which threads to set at which priority? I am going to attempt to give some guidance for setting the thread priorities in the article.</div>
+<div style="MARGIN: 0in 0in 10pt">The thread priorities currently supported are 0 through 255. Zero is the highest priority and 255 is the lowest. What this means that if a thread needs to execute and it is at a higher priority than other threads in the system, it will run. If there are other threads at the same priority, they will be run one after the other in a round robin manner.   Once the high priority threads have completed needing to execute and block, the next lower priority thread that needs to execute will be started.</div>
+<div style="MARGIN: 0in 0in 10pt">This means that high priority threads will prevent lower priority threads from running. So all threads need to be written so that they do not use excessive CPU time or the overall system may suffer.</div>
+<div style="MARGIN: 0in 0in 10pt">There is an interesting twist on this priority scheme known as priority inversion. Priority inversion is an OS feature that is in place to prevent deadlock. When two or more threads share a resource, like a Mutex or Critical Section, if the higher priority thread is blocked waiting for access to the resource the lower priority thread will have its priority raised up to the priority of the higher priority thread so that the lower priority thread can execute to release the resource. As soon as the lower priority thread releases the resource, its priority will be lowered back to its original priority.</div>
+<div style="MARGIN: 0in 0in 10pt">It is important to understand the functions used for setting the thread priorities. There are two functions for setting the priority; CeSetThreadPriority() and SetThreadPriority().   </div>
+<div style="MARGIN: 24pt 0in 0pt 0.5in"><strong><font size="6"><font color="#365f91" size="5">CeSetThreadPriority()</font></font></strong></div>
+<div style="MARGIN: 0in 0in 10pt 0.5in">CeSetThreadPriority() was introduced with Windows CE 3.0 to handle the increased thread priorities. CeSetThreadPriority() takes two parameters; the thread ID and a number between 0 and 255.</div>
+<div style="MARGIN: 24pt 0in 0pt 0.5in"><strong><font size="6"><font color="#365f91" size="5">SetThreadPriority()</font></font></strong></div>
+<div style="MARGIN: 3.75pt 0in 11.25pt 0.5in">SetThreadPriority() is the original function for setting the priority in the early versions of Windows CE. SetThreadPriority() is maintained today for backward compatibility. SetThreadPriority() is capable of setting the priority to one of the original eight priorities, but these priorities map into the lowest eight priorities since Windows CE 3.0. SetThreadPriority() takes two parameters; the first is the thread ID and the second is one of eight macros. The macros are:</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in">                THREAD_PRIOTIY_TIME_CRITICAL</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in">                THREAD_PRIORITY_HIGHEST</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in">                THREAD_PRIORITY_ABOVE_NORMAL</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in">                THREAD_PRIORITY_NORMAL</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in">                THREAD_PRIORITY_BELOW_NORMAL</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in">                THREAD_PRIORITY_LOWEST</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in">                THREAD_PRIORITY_ABOVE_IDLE</div>
+<div style="MARGIN: 0in 0in 10pt 0.5in">                THREAD_PRIORITY_IDLE</div>
+<div style="MARGIN: 0in 0in 10pt 0.5in"><strong><em><u>These macros should never be used with CeSetThreadPriority().</u></em></strong> They were not intended for this purpose.</div>
+<div style="MARGIN: 3.75pt 0in 11.25pt 0.5in">In general, I don’t recommend using SetThreadPriority() because I have seen too many application programmers use it incorrectly; they think that <span style="COLOR: black">THREAD_PRIORITY_TIME_CRITICAL sets the application thread to a very high priority. Let me tell you now that it does not. Instead, it sets the thread priority to a high priority relative to other functions using SetThreadPriority(), but in fact this priority is 248 on most Windows CE devices.</span></div>
+<div style="MARGIN: 3.75pt 0in 11.25pt 0.5in"><span style="COLOR: black">SetThreadPriority() can be a good function to use within application because it restricts the priorities that an application uses. But if used in an application, the programmer needs to understand what the function actually does.</span></div>
+<div style="MARGIN: 0in 0in 10pt">Now that we have some functions for setting the priority, we can look at some guidelines for choosing the priority. Microsoft has documented some suggestions which are:</div>
+<table style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="1">
+    <tbody>
+        <tr>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #4f81bd; PADDING-BOTTOM: 0in; BORDER-LEFT: black 1pt solid; WIDTH: 125.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid" valign="top" width="167">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal" align="center"><strong>Priority Level</strong></div>
+            </td>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #4f81bd; PADDING-BOTTOM: 0in; BORDER-LEFT: #d4d0c8; WIDTH: 353.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid" valign="top" width="471">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><strong>Suggested Use</strong></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #d4d0c8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: black 1pt solid; WIDTH: 125.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: transparent" valign="top" width="167">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal" align="center">0-96</div>
+            </td>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #d4d0c8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #d4d0c8; WIDTH: 353.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: transparent" valign="top" width="471">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">Real-time threads</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #d4d0c8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: black 1pt solid; WIDTH: 125.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: transparent" valign="top" width="167">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal" align="center">97-152</div>
+            </td>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #d4d0c8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #d4d0c8; WIDTH: 353.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: transparent" valign="top" width="471">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">Default drivers</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #d4d0c8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: black 1pt solid; WIDTH: 125.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: transparent" valign="top" width="167">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal" align="center">153-247</div>
+            </td>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #d4d0c8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #d4d0c8; WIDTH: 353.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: transparent" valign="top" width="471">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">Non-real time drivers</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #d4d0c8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: black 1pt solid; WIDTH: 125.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: transparent" valign="top" width="167">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal" align="center">248-255</div>
+            </td>
+            <td style="BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #d4d0c8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #d4d0c8; WIDTH: 353.2pt; PADDING-TOP: 0in; BORDER-BOTTOM: black 1pt solid; BACKGROUND-COLOR: transparent" valign="top" width="471">
+            <div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal">Applications</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div style="MARGIN: 0in 0in 10pt"> </div>
+<div style="MARGIN: 0in 0in 10pt">I changed the wording to try to clarify the priority levels that Microsoft recommended but the numbers are consistent. Of course these suggestions should be followed for any general purpose device, like a PDA or Terminal which might have third-party applications installed. But, many Windows CE devices are truly embedded systems that are packaged and tuned by an OEM for a special purpose. Don’t misunderstand me, these guidelines are good and in most cases should be followed, but there are times when the system engineer might need to tune the system by not following these guidelines.</div>
+<div style="MARGIN: 0in 0in 10pt">Choosing the priorities for a system can be time consuming. To do it well, the system engineer needs to understand what threads are in the system and what their purpose is. Once the system engineer understands the threads in the system, then it is much easier to determine the priorities that are needed.</div>
+<div style="MARGIN: 0in 0in 10pt">Basically, the system engineer needs to determine which threads are more important than others. But it is important to also understand what how CPU intensive the threads are, a high priority thread that uses too much CPU time can starve the low priority threads keeping them from running. In some cases, that is desirable, but in most cases it is not. One solution to this is to add blocking calls to the high priority thread to allow lower priority thread time to run, Sleep() and WaitForSingleObject() can be used for this.</div>
+<div style="MARGIN: 0in 0in 10pt">The system engineer will set the priorities so that the important threads get CPU time when they need it. If two threads could need to get CPU time at the same time, they should be set to the same priority. The trouble is that a Windows CE system can have many threads and many of them need to get CPU time, but determining which threads are more important will help in making decisions.</div>
+<div style="MARGIN: 0in 0in 10pt">One mistake that I have seen is changing the priority of a thread to a high priority because the thread is important, but with total disregard for the importance of other threads in the system. Sure that thread gets the CPU when it needs it, but possibly at the expense of keeping other important threads from running. I have worked with engineers who have done this and accomplished what they wanted which was to make sure that the important thread ran, but then found that the rest of the system suffered. So change the priorities with caution, but do change them when necessary.</div>
+<div style="MARGIN: 0in 0in 10pt">For an example, let’s look at a system with three threads. Not very realistic, but I think that it will work well for discussion. The threads are a GUI thread, a data collection thread and a touch driver interrupt thread.</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in"><span>1.<span style="FONT: 7pt 'Times New Roman'">       </span></span>The GUI thread needs to update data and be responsive to the user. Users are important and their impression of the system is important to selling product, so when the user wants to interact with the system we need to be responsive. The priority of the GUI thread can actually be low if the other threads in the system give it time to run once in a while.</div>
+<div style="MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in"><span>2.<span style="FONT: 7pt 'Times New Roman'">       </span></span>The product was designed to collect data. Missing data will be perceived as worse than not responding to the user. This thread priority needs to be high, but because data collection can be CPU intensive this thread needs share the CPU.</div>
+<div style="MARGIN: 0in 0in 10pt 0.5in; TEXT-INDENT: -0.25in"><span>3.<span style="FONT: 7pt 'Times New Roman'">       </span></span>The user interacts with the system through the touch panel. If we don’t detect when the user touches the panel, the GUI will certainly not respond. This thread priority also needs to be high, but processing touch panel input is not very CPU intensive. Setting this priority higher than the data collection thread will probably not cause data to be missed.</div>
+<div style="MARGIN: 0in 0in 10pt">Confusing? Yes, but with some knowledge and a little experimenting setting priority can be accomplished. Microsoft also provides some tools that are valuable for evaluating the system including the Remote Kernel Tracker.</div>
+<div style="MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 9pt">Copyright © 2009 – Bruce Eitman</span></div>
+<div style="MARGIN: 0in 0in 10pt; LINE-HEIGHT: normal" align="center"><span style="FONT-SIZE: 9pt">All Rights Reserved</span></div></div>
+    <p class="meta">Friday, February 13, 2009 11:30 PM</p>
+    <!--<p class="meta">Tags: <a href="#" rel="tag">Tag1</a></p>-->
+</div><div id="apnlCommentsWrapper">
+	
+<div id="comments" class="section">
+	<h2 class="section-title">Your Comments.</h2>
+	<p></p>
+	<ul class="comment-list" id="commentList">
+	        <li id="486621" class="comment normal-comment">
+	            <div class="comment-body">
+		            <cite>
+			            <strong>
+				            <a rel="nofollow" title="permalink: re: Windows CE: Guide to Setting Thread Priorities" href="http://geekswithblogs.net/BruceEitman/archive/2009/02/13/windows-ce-guide-to-setting-thread-priorities.aspx#486621">#</a>&nbsp;<a rel="nofollow" name="486621"></a>re: Windows CE: Guide to Setting Thread Priorities
+			            </strong>
+		            </cite>
+		            <p><img id="Comments_ascx_CommentList_ctl01_GravatarImg" class="avatar" src="http://www.gravatar.com/avatar.php?gravatar_id=f45f0baaa82f59a9c78e0adbc360dd29&amp;size=50&amp;default=http%3a%2f%2fgeekswithblogs.net%2fimages%2fIdenticonHandler.ashx%3fsize%3d50%26code%3d1192781162" alt="Gravatar" style="border-width:0px;" />Hi Bruce, thanks for the helpful article.  I went searching for information to get more clarification on the nature of Priority Levels, and your article explained it well.  <br /><br />I realized that the Priority Level is counter-intutive.  When mentioned "higher priority level" it really means threads whose priority levels are of smaller number (eg. 4 is higher priority level than 5) ~ *olala.. It's an eye-opening clarification to me.<br /><br />Thanks again!<br /><br />AT</p>
+	            </div>
+	            <div class="comment-date">Left by <a id="Comments_ascx_CommentList_ctl01_NameLink" title="AT" rel="nofollow" target="_blank">AT</a> at 9/6/2009 10:08 PM</div>
+	            <a id="Comments_ascx_CommentList_ctl01_EditLink" class="editlink" href="javascript:__doPostBack('Comments_ascx$CommentList$ctl01$EditLink','')"></a>
+            </li>
+	    
+	        <li id="504714" class="comment alternate-comment">
+	            <div class="comment-body">
+		            <cite>
+			            <strong>
+				            <a rel="nofollow" title="permalink: re: Windows CE: Guide to Setting Thread Priorities" href="http://geekswithblogs.net/BruceEitman/archive/2009/02/13/windows-ce-guide-to-setting-thread-priorities.aspx#504714">#</a>&nbsp;<a rel="nofollow" name="504714"></a>re: Windows CE: Guide to Setting Thread Priorities
+			            </strong>
+		            </cite>
+ 		            <p class="comment-text"><img id="Comments_ascx_CommentList_ctl02_GravatarImg" class="avatar" src="http://www.gravatar.com/avatar.php?gravatar_id=660a92f9075c71b3b3ce5f6590ca05b9&amp;size=50&amp;default=http%3a%2f%2fgeekswithblogs.net%2fimages%2fIdenticonHandler.ashx%3fsize%3d50%26code%3d1603486482" alt="Gravatar" style="border-width:0px;" />Hi Bruce,<br />Just a pointer to an MSDN article that goes over Microsoft's recommended priorities:<br />http://msdn.microsoft.com/en-us/library/aa910702.aspx</p>
+	            </div>
+	            <div class="comment-date">Left by <a id="Comments_ascx_CommentList_ctl02_NameLink" title="Shai" rel="nofollow" target="_blank">Shai</a> at 2/7/2010 9:13 PM</div>
+	            <a id="Comments_ascx_CommentList_ctl02_EditLink" class="editlink" href="javascript:__doPostBack('Comments_ascx$CommentList$ctl02$EditLink','')"></a>
+            </li>
+	    </ul>    
+</div>
+<div class="section" id="comment-reply-form">
+    <h2 class="section-title">Your Reply.</h2>
+    <div id="preview" style="display: none" class="normal-comment">
+    </div>
+    <div class="comment-box">
+        <fieldset id="respond">
+            <legend>Comment Form.</legend>
+            <div id="errors"> </div>
+            <div class="notes">
+                <p>Fields denoted with a "<em>*</em>" are required.</p>
+            </div>
+            <div class="required clearfix">
+                <label for="PostComment.ascx_tbName"><em>*</em>Your name:</label>
+                <input name="PostComment_ascx$tbName" type="text" maxlength="32" id="PostComment_ascx_tbName" class="fixed" />
+                <span id="PostComment_ascx_vldNameRequired" style="color:Red;display:none;">Please enter your name</span>
+            </div>
+            <div class="required clearfix">
+                <label for="PostComment.ascx_tbTitle"><em>*</em>Subject:</label>
+                <input name="PostComment_ascx$tbTitle" type="text" value="re: Windows CE: Guide to Setting Thread Priorities" maxlength="128" id="PostComment_ascx_tbTitle" class="fixed" />
+                <span id="PostComment_ascx_vldTitleRequired" style="color:Red;display:none;">Please enter a title</span>
+            </div>
+            <div>
+                <small>You may also like to <a href="/pages/javascript-error" onclick="toggleCommentForm(); return false;">
+                    leave your email or website.</a></small>
+                <div id="guest_url" class="clearfix" style="display: none;">
+                    <label for="PostComment.ascx_tbUrl">Your blog:</label>
+                    <input name="PostComment_ascx$tbUrl" type="text" maxlength="256" id="PostComment_ascx_tbUrl" class="fixed" />
+                    <span id="PostComment_ascx_vldUrl" style="color:Red;display:none;">Url is not required, but it must be valid if specified.</span>
+                </div>
+                <div id="guest_email" class="clearfix" style="display: none;">
+                    <label for="PostComment.ascx_tbEmail">Your email:</label>
+                    <input name="PostComment_ascx$tbEmail" type="text" maxlength="128" id="PostComment_ascx_tbEmail" class="fixed" />&nbsp;(will not be displayed)
+                    <span id="PostComment_ascx_vldEmail" style="color:Red;display:none;">Email is not required, but it must be valid if specified.</span>
+                </div>
+            </div>
+            <div class="required clearfix">
+                <label for="PostComment.ascx_tbComment"><em>*</em>Your message:</label>
+                <textarea name="PostComment_ascx$tbComment" rows="7" cols="20" id="PostComment_ascx_tbComment" class="fixed livepreview" cols="55"></textarea>
+                <br />
+                <span id="PostComment_ascx_Requiredfieldvalidator4" style="color:Red;visibility:hidden;">Please enter a comment</span>
+            </div>
+            
+            <div id="frm-btns" class="buttons">
+                <table cellpadding="2" cellspacing="0"><tr><td><img src="/CaptchaImage.ashx?spec=PbjVqKWNt2xYQ%2b9UvwmJefyhWxn4dgL9uQxEjO1DgcCNZP%2b5gh4w5X414l7r7ILT" border="0" width="180" height="50" /></td></tr><tr><td><input name="PostComment_ascx_captcha_answer" type="text" size="4" maxlength="4" value="" />&nbsp;<label for="PostComment_ascx_captcha_answer">Enter the code shown above</label><span id="PostComment_ascx_captcha" style="display:inline-block;color:Red;height:50px;width:180px;display:none;">Please enter the correct word</span><input type="hidden" name="PostComment_ascx_captcha_encrypted" value="SvWrn1lJXExmwiitluWKjKWj0b/jj07IlVQAKINlHro=" /></td></tr></table><input type="submit" name="PostComment_ascx$btnSubmit" value="Publish Comment" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;PostComment_ascx$btnSubmit&quot;, &quot;&quot;, true, &quot;SubtextComment&quot;, &quot;&quot;, false, false))" id="PostComment_ascx_btnSubmit" class="button" />
+            </div>
+            <h2 class="section-title">Preview Your Comment.</h2>
+		    <div id="commentPreview" class="preview-comment"><div class="livepreview comment-body" >&nbsp;</div></div>
+        </fieldset>
+    </div>
+</div> 
+</div>
+				
+                    </div>
+                </div>
+                <div id="sidebar-wrapper">
+                    <div id="sidebar">
+                        <div class="sidebar-node">
+							
+<div id="searchWrapper">
+	<div id="search">
+		<input name="search$txtSearch" type="text" id="search_txtSearch" class="searchterm" /> <input type="submit" name="search$btnSearch" value="Search" id="search_btnSearch" class="searchButton" />
+	</div>
+	<div id="search_searchUpdate">
+	
+			
+		
+</div>
+	<div id="search_searchProgress" style="display:none;">
+	
+			<div id="search-progress">
+			</div>
+		
+</div>
+</div>
+							<div style="text-align:center;margin-top:10px;"><!-- Begin -  Site: Geekswithblogs.net Zone: Skyscraper -->
+<script language="javascript" type="text/javascript">
+<!--
+	var browName = navigator.appName;
+	var SiteID = 1;
+	var ZoneID = 1;
+	var browDateTime = (new Date()).getTime();
+	if (browName=='Netscape')
+	{
+	document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="http://ads.geekswithblogs.net/a.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;PageID=51102&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '">'); document.write('</'+'scr'+'ipt>');
+	}
+	if (browName!='Netscape')
+	{
+	document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="http://ads.geekswithblogs.net/a.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;PageID=51102&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '">'); document.write('</'+'scr'+'ipt>');
+	}
+// --> 
+</script>
+<noscript>
+	<a href="http://ads.geekswithblogs.net/a.aspx?ZoneID=1&Task=Click&Mode=HTML&SiteID=1&PageID=51102" target="_blank">
+	<img src="http://ads.geekswithblogs.net/a.aspx?ZoneID=1&Task=Get&Mode=HTML&SiteID=1&PageID=51102" width="160" height="600" border="0"  alt=""></a>
+</noscript>
+<!-- End -  Site: Geekswithblogs.net Zone: Skyscraper -->
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2457427-1']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+	 
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+	 
+</script></div>
+<h3 class="static-heading">Me</h3>
+<p>
+	<fieldset style="padding:4px">
+<legend>Bruce Works at</legend>
+<a href="http://www.eurotech-inc.com">
+<img src="http://geekswithblogs.net/images/geekswithblogs_net/BruceEitman/8095/o_Eurotech.JPG" border="0" />
+<a/>
+</fieldset>
+<fieldset style="padding:4px">
+<legend>Awards and Acheivements</legend>
+
+<a href="http://mvp.support.microsoft.com/default.aspx">
+	<img src="http://geekswithblogs.net/images/geekswithblogs_net/BruceEitman/8095/t_MVP_Horizontal_FullColor.JPG" border="0" />
+<a/>
+<a href="http://msdn.microsoft.com/en-us/embedded/cc294468.aspx">
+	<img src="http://geekswithblogs.net/images/geekswithblogs_net/BruceEitman/8095/t_MCTS(rgb).jpg" border="0" />
+<a/>
+<Br/>Windows Embedded CE 6.0 Developer<BR/>
+</fieldset>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4487787; 
+var sc_invisible=1; 
+var sc_partition=55; 
+var sc_click_stat=1; 
+var sc_security="7f72b6c1"; 
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+class="statcounter"><a title="myspace profile views counter"
+href="http://www.statcounter.com/myspace/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/4487787/0/7f72b6c1/1/"
+alt="myspace profile views counter" ></a></div></noscript>
+<!-- End of StatCounter Code --></script>
+<script type="text/javascript">
+var gaJsHostBE = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHostBE + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTrackerBE = _gat._getTracker("UA-5016547-1");
+pageTrackerBE._initData();
+pageTrackerBE._trackPageview();
+</script>
+
+<BR/><BR/><BR/>
+<ul>
+<li><a id="myLinks1_DownloadLink" title="Download form." class="Download"href="http://geekswithblogs.net/BruceEitman/archive/2009/10/09/downloads.aspx"><strong>Downloads</strong></a></li>
+<li><a id="myLinks1_ForumsLink" title="Download form." class="Download"href="http://geekswithblogs.net/BruceEitman/archive/2010/08/18/windows-compact-discussion-forums.aspx"><strong>Community</strong></a></li>
+<li><a id="myLinks1_ContactLink" title="Contact form." class="Contact"href="http://geekswithblogs.net/BruceEitman/archive/2009/02/07/contact-information.aspx"><strong>Contact Bruce Eitman</strong></a></li>
+</ul>
+<BR/>
+Do not use the Contact link below.  I do not respond to any messages from it unless you give me a corporate email address.  Gmail is not a corporate email address.<BR/><BR/>If you are looking for free support I do not give free support via email, instead please use the Community link above.
+</p>
+	
+
+							<ul>
+                                
+<li><a id="myLinks1_ContactLink" title="Contact form." class="Contact" href="/BruceEitman/contact.aspx">Contact</a></li>
+<li><a id="myLinks1_Admin" title="Login Form." class="Contact" href="/BruceEitman/login.aspx">Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-node">
+                            
+							
+<div>
+	
+			<h3>Tag Cloud</h3>
+			<ul id="tag-cloud">
+		
+			<li>
+				<a id="tagCloud_Tags_ctl01_TagUrl" title=".NET Compact Framework (2)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/.NET%20Compact%20Framework/default.aspx">.NET Compact Framework</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl02_TagUrl" title="BIB File (5)" class="tag-style-3 tag-item" href="/BruceEitman/Tags/BIB%20File/default.aspx">BIB File</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl03_TagUrl" title="blddemo (1)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/blddemo/default.aspx">blddemo</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl04_TagUrl" title="Build.exe (7)" class="tag-style-3 tag-item" href="/BruceEitman/Tags/Build.exe/default.aspx">Build.exe</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl05_TagUrl" title="C (2)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/C/default.aspx">C</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl06_TagUrl" title="Catalog (5)" class="tag-style-3 tag-item" href="/BruceEitman/Tags/Catalog/default.aspx">Catalog</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl07_TagUrl" title="Clone (2)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/Clone/default.aspx">Clone</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl08_TagUrl" title="Dat Files (1)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/Dat%20Files/default.aspx">Dat Files</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl09_TagUrl" title="DEBUGMSG (3)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/DEBUGMSG/default.aspx">DEBUGMSG</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl10_TagUrl" title="Drivers (17)" class="tag-style-5 tag-item" href="/BruceEitman/Tags/Drivers/default.aspx">Drivers</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl11_TagUrl" title="FMerge (1)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/FMerge/default.aspx">FMerge</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl12_TagUrl" title="Kernel (2)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/Kernel/default.aspx">Kernel</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl13_TagUrl" title="Makeimg (3)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/Makeimg/default.aspx">Makeimg</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl14_TagUrl" title="PBXMLUtils (1)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/PBXMLUtils/default.aspx">PBXMLUtils</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl15_TagUrl" title="Platform Builder (5)" class="tag-style-3 tag-item" href="/BruceEitman/Tags/Platform%20Builder/default.aspx">Platform Builder</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl16_TagUrl" title="ReadFile (1)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/ReadFile/default.aspx">ReadFile</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl17_TagUrl" title="REG Files (12)" class="tag-style-5 tag-item" href="/BruceEitman/Tags/REG%20Files/default.aspx">REG Files</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl18_TagUrl" title="RETAILMSG (2)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/RETAILMSG/default.aspx">RETAILMSG</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl19_TagUrl" title="Sources (4)" class="tag-style-3 tag-item" href="/BruceEitman/Tags/Sources/default.aspx">Sources</a>
+			</li>
+		
+			<li>
+				<a id="tagCloud_Tags_ctl20_TagUrl" title="STR File (1)" class="tag-style-2 tag-item" href="/BruceEitman/Tags/STR%20File/default.aspx">STR File</a>
+			</li>
+		
+			</ul>
+			<a id="tagCloud_Tags_ctl21_DefaultTagLink" class="more-link" href="/BruceEitman/Tags/default.aspx">more tags...</a>
+		
+</div>
+                        </div>
+                        
+<div id="links">
+
+        <div class="sidebar-node"><h3 class="archives-heading">Archives</h3>
+        <ul class="archives-list"><li><a id="column_Categories_CatList_ctl00_LinkList_ctl01_Link" title="" href="/BruceEitman/archive/2010/08.aspx">August, 2010 (10)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl02_Link" title="" href="/BruceEitman/archive/2010/06.aspx">June, 2010 (2)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl03_Link" title="" href="/BruceEitman/archive/2010/05.aspx">May, 2010 (1)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl04_Link" title="" href="/BruceEitman/archive/2010/04.aspx">April, 2010 (1)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl05_Link" title="" href="/BruceEitman/archive/2010/03.aspx">March, 2010 (12)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl06_Link" title="" href="/BruceEitman/archive/2010/02.aspx">February, 2010 (5)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl07_Link" title="" href="/BruceEitman/archive/2010/01.aspx">January, 2010 (2)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl08_Link" title="" href="/BruceEitman/archive/2009/12.aspx">December, 2009 (5)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl09_Link" title="" href="/BruceEitman/archive/2009/11.aspx">November, 2009 (3)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl10_Link" title="" href="/BruceEitman/archive/2009/10.aspx">October, 2009 (10)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl11_Link" title="" href="/BruceEitman/archive/2009/09.aspx">September, 2009 (16)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl12_Link" title="" href="/BruceEitman/archive/2009/08.aspx">August, 2009 (12)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl13_Link" title="" href="/BruceEitman/archive/2009/07.aspx">July, 2009 (13)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl14_Link" title="" href="/BruceEitman/archive/2009/06.aspx">June, 2009 (11)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl15_Link" title="" href="/BruceEitman/archive/2009/05.aspx">May, 2009 (7)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl16_Link" title="" href="/BruceEitman/archive/2009/04.aspx">April, 2009 (17)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl17_Link" title="" href="/BruceEitman/archive/2009/03.aspx">March, 2009 (11)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl18_Link" title="" href="/BruceEitman/archive/2009/02.aspx">February, 2009 (9)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl19_Link" title="" href="/BruceEitman/archive/2009/01.aspx">January, 2009 (23)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl20_Link" title="" href="/BruceEitman/archive/2008/12.aspx">December, 2008 (16)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl21_Link" title="" href="/BruceEitman/archive/2008/11.aspx">November, 2008 (12)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl22_Link" title="" href="/BruceEitman/archive/2008/10.aspx">October, 2008 (4)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl23_Link" title="" href="/BruceEitman/archive/2008/09.aspx">September, 2008 (7)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl24_Link" title="" href="/BruceEitman/archive/2008/08.aspx">August, 2008 (16)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl25_Link" title="" href="/BruceEitman/archive/2008/07.aspx">July, 2008 (17)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl26_Link" title="" href="/BruceEitman/archive/2008/06.aspx">June, 2008 (29)</a></li><li><a id="column_Categories_CatList_ctl00_LinkList_ctl27_Link" title="" href="/BruceEitman/archive/2008/05.aspx">May, 2008 (23)</a></li></ul></div>
+    
+        <div class="sidebar-node"><h3 class="archives-heading">Post Categories</h3>
+        <ul class="archives-list"><li><a id="column_Categories_CatList_ctl01_LinkList_ctl01_Link" title="" href="/BruceEitman/category/8115.aspx">My Profile</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl02_Link" title="" href="/BruceEitman/category/8116.aspx">Serial Debug Menu</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl03_Link" title="" href="/BruceEitman/category/8117.aspx">Building Windows CE</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl04_Link" title="" href="/BruceEitman/category/8118.aspx">Windows CE Kernel</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl05_Link" title="" href="/BruceEitman/category/8126.aspx">Windows CE Bootloader</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl06_Link" title="" href="/BruceEitman/category/8140.aspx">When Things Go Wrong</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl07_Link" title="" href="/BruceEitman/category/8166.aspx">Windows CE General</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl08_Link" title="" href="/BruceEitman/category/8216.aspx">Windows CE Drivers</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl09_Link" title="" href="/BruceEitman/category/8415.aspx">Platorm Builder Catalog</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl10_Link" title="" href="/BruceEitman/category/8419.aspx">Platform Builder General</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl11_Link" title="" href="/BruceEitman/category/8522.aspx">.NET Compact Framework</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl12_Link" title="" href="/BruceEitman/category/8609.aspx">Books on my Shelf</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl13_Link" title="" href="/BruceEitman/category/9363.aspx">BIB Files</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl14_Link" title="" href="/BruceEitman/category/9364.aspx">Windows CE Registry</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl15_Link" title="" href="/BruceEitman/category/10163.aspx">Embedded News</a></li><li><a id="column_Categories_CatList_ctl01_LinkList_ctl16_Link" title="" href="/BruceEitman/category/10445.aspx">Windows Embedded Standard (WES)</a></li></ul></div>
+    
+        <div class="sidebar-node"><h3 class="archives-heading">Windows CE Blogs</h3>
+        <ul class="archives-list"><li><a id="column_Categories_CatList_ctl02_LinkList_ctl01_Link" title="" href="http://bremedios.blogspot.com/">Bradley Ramedios's Blog</a></li><li><a id="column_Categories_CatList_ctl02_LinkList_ctl02_Link" title="" href="http://guruce.com/blog">GuruCE</a></li><li><a id="column_Categories_CatList_ctl02_LinkList_ctl03_Link" title="" href="http://devwince.blogspot.com/">Vaisakh P S's Windows CE Blog</a></li><li><a id="column_Categories_CatList_ctl02_LinkList_ctl04_Link" title="" href="http://blogs.msdn.com/ce_base/">Windows CE Base Team</a></li></ul></div>
+    
+</div>
+                        <div class="sidebar-node">
+                            <h3 id="syndicate-heading">Syndicate</h3>
+                            
+<ul id="syndicate-list">
+	<li class="RSS"><a id="SyndicationLinks1_XMLLink" title="Subscribe to this feed." href="http://geekswithblogs.net/BruceEitman/Rss.aspx">RSS 2.0 Feed</a></li>
+	<li class="RSS"><a id="SyndicationLinks1_AtomLink" title="Subscribe to this feed." href="http://geekswithblogs.net/BruceEitman/Atom.aspx">Atom 1.0 Feed</a></li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+        <p><strong>Original Template Design: <a title="Template Design - The Leevi Graham (http://www.leevigraham.com)" href="http://www.leevigraham.com/">Leevi Graham</a></strong><br />
+        <strong>Adapted Design: <a title="timheuer.com/smilinggoat.net" href="http://www.timheuer.com">timheuer</a></strong></p>
+    </div>
+<script type="text/javascript">
+	init();
+</script>
+		
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("PostComment_ascx_vldNameRequired"), document.getElementById("PostComment_ascx_vldTitleRequired"), document.getElementById("PostComment_ascx_vldUrl"), document.getElementById("PostComment_ascx_vldEmail"), document.getElementById("PostComment_ascx_Requiredfieldvalidator4"), document.getElementById("PostComment_ascx_captcha"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var PostComment_ascx_vldNameRequired = document.all ? document.all["PostComment_ascx_vldNameRequired"] : document.getElementById("PostComment_ascx_vldNameRequired");
+PostComment_ascx_vldNameRequired.controltovalidate = "PostComment_ascx_tbName";
+PostComment_ascx_vldNameRequired.errormessage = "Please enter your name";
+PostComment_ascx_vldNameRequired.display = "Dynamic";
+PostComment_ascx_vldNameRequired.validationGroup = "SubtextComment";
+PostComment_ascx_vldNameRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+PostComment_ascx_vldNameRequired.initialvalue = "";
+var PostComment_ascx_vldTitleRequired = document.all ? document.all["PostComment_ascx_vldTitleRequired"] : document.getElementById("PostComment_ascx_vldTitleRequired");
+PostComment_ascx_vldTitleRequired.controltovalidate = "PostComment_ascx_tbTitle";
+PostComment_ascx_vldTitleRequired.errormessage = "Please enter a title";
+PostComment_ascx_vldTitleRequired.display = "Dynamic";
+PostComment_ascx_vldTitleRequired.validationGroup = "SubtextComment";
+PostComment_ascx_vldTitleRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+PostComment_ascx_vldTitleRequired.initialvalue = "";
+var PostComment_ascx_vldUrl = document.all ? document.all["PostComment_ascx_vldUrl"] : document.getElementById("PostComment_ascx_vldUrl");
+PostComment_ascx_vldUrl.controltovalidate = "PostComment_ascx_tbUrl";
+PostComment_ascx_vldUrl.errormessage = "Url is not required, but it must be valid if specified.";
+PostComment_ascx_vldUrl.display = "Dynamic";
+PostComment_ascx_vldUrl.validationGroup = "SubtextComment";
+PostComment_ascx_vldUrl.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+PostComment_ascx_vldUrl.validationexpression = "^(https?://)?([\\w-]+\\.)+[\\w-]+([\\w-./?%&=:]*)?$";
+var PostComment_ascx_vldEmail = document.all ? document.all["PostComment_ascx_vldEmail"] : document.getElementById("PostComment_ascx_vldEmail");
+PostComment_ascx_vldEmail.controltovalidate = "PostComment_ascx_tbEmail";
+PostComment_ascx_vldEmail.errormessage = "Email is not required, but it must be valid if specified.";
+PostComment_ascx_vldEmail.display = "Dynamic";
+PostComment_ascx_vldEmail.validationGroup = "SubtextComment";
+PostComment_ascx_vldEmail.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+PostComment_ascx_vldEmail.validationexpression = "^([0-9a-zA-Z]([-.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
+var PostComment_ascx_Requiredfieldvalidator4 = document.all ? document.all["PostComment_ascx_Requiredfieldvalidator4"] : document.getElementById("PostComment_ascx_Requiredfieldvalidator4");
+PostComment_ascx_Requiredfieldvalidator4.controltovalidate = "PostComment_ascx_tbComment";
+PostComment_ascx_Requiredfieldvalidator4.errormessage = "Please enter a comment";
+PostComment_ascx_Requiredfieldvalidator4.validationGroup = "SubtextComment";
+PostComment_ascx_Requiredfieldvalidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+PostComment_ascx_Requiredfieldvalidator4.initialvalue = "";
+var PostComment_ascx_captcha = document.all ? document.all["PostComment_ascx_captcha"] : document.getElementById("PostComment_ascx_captcha");
+PostComment_ascx_captcha.errormessage = "Please enter the correct word";
+PostComment_ascx_captcha.display = "Dynamic";
+PostComment_ascx_captcha.validationGroup = "SubtextComment";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        Sys.Application.initialize();
+
+document.getElementById('PostComment_ascx_vldNameRequired').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('PostComment_ascx_vldNameRequired'));
+}
+
+document.getElementById('PostComment_ascx_vldTitleRequired').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('PostComment_ascx_vldTitleRequired'));
+}
+
+document.getElementById('PostComment_ascx_vldUrl').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('PostComment_ascx_vldUrl'));
+}
+
+document.getElementById('PostComment_ascx_vldEmail').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('PostComment_ascx_vldEmail'));
+}
+
+document.getElementById('PostComment_ascx_Requiredfieldvalidator4').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('PostComment_ascx_Requiredfieldvalidator4'));
+}
+
+document.getElementById('PostComment_ascx_captcha').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('PostComment_ascx_captcha'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":500,"dynamicLayout":true}, null, null, $get("search_searchProgress"));
+});
+//]]>
+</script>
+</form>
+	</body>
+</html>

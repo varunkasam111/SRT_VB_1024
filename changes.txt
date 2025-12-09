@@ -1,0 +1,8 @@
+1.In data management window(opening a file window) del button to be shifted to 4 or 5
+ 
+2.in opening a file, provision for copying is required.
+ 
+3.File namingà in naming the freezed file km and TP details should be from the second test info.
+ 
+4.In defect details entering after the freezing, In rolling mark list box, SAIL 880 and HH 1080 are to be added
+ 

@@ -1,0 +1,354 @@
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\bin\Debug\ParasSRT.exe
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\bin\Debug\ParasSRT.xml
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ParasSRT.exe
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ParasSRT.xml
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ParasSRT.pdb
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\Documents and Settings\G. Som Sunder\Local Settings\Application Data\Temporary Projects\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+D:\MyPrograms\NET\ParasSRT\ParasSRT\bin\Debug\ParasSRT.exe
+D:\MyPrograms\NET\ParasSRT\ParasSRT\bin\Debug\ParasSRT.pdb
+D:\MyPrograms\NET\ParasSRT\ParasSRT\bin\Debug\ParasSRT.xml
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.exe
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.xml
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.pdb
+D:\MyPrograms\NET\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\bin\Debug\ParasSRT.exe
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\bin\Debug\ParasSRT.xml
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.exe
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.xml
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.pdb
+C:\Som\MySource\Paras\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.exe
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.xml
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.exe
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.xml
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.pdb
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.exe
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.xml
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.exe
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.xml
+C:\Som\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.pdb
+F:\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.exe
+F:\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.pdb
+F:\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.xml
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.exe
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.xml
+F:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.pdb
+H:\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.exe
+H:\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.pdb
+H:\MySource\Paras\ParasSRTColor\ParasSRT\bin\Debug\ParasSRT.xml
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.exe
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.xml
+H:\MySource\Paras\ParasSRTColor\ParasSRT\obj\Debug\ParasSRT.pdb
+F:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\ParasSRT.exe
+F:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\ParasSRT.pdb
+F:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\ParasSRT.xml
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.exe
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.xml
+F:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.pdb
+H:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\ParasSRT.exe
+H:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\ParasSRT.pdb
+H:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\ParasSRT.xml
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.exe
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.xml
+H:\MySource\Paras\ParasSRTTest\ParasSRT\obj\Debug\ParasSRT.pdb
+H:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\testdll.dll
+F:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\testdll.dll
+F:\MySource\Paras\ParasSRTTest\ParasSRT\bin\Debug\GPIO.vb
+F:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\GpioLib.dll
+F:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\testdll.dll
+F:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\GPIO.vb
+F:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.exe
+F:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.pdb
+F:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.xml
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.exe
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.xml
+F:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.pdb
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\GpioLib.dll
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\testdll.dll
+C:\Som\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\GPIO.vb
+C:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\GpioLib.dll
+C:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\testdll.dll
+C:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\GPIO.vb
+C:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.exe
+C:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\MySource\Paras\ParasSRTNew\ParasSRT\bin\Debug\ParasSRT.xml
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.exe
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.xml
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.pdb
+C:\MySource\Paras\ParasSRTNew\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\GpioLib.dll
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\testdll.dll
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\GPIO.vb
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\ParasSRT.exe
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\ParasSRT.xml
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.exe
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.xml
+C:\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.pdb
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\GpioLib.dll
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\testdll.dll
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\GPIO.vb
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\ParasSRT.exe
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\bin\Debug\ParasSRT.xml
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.exe
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.xml
+C:\Som\MySource\Paras\ParasSRTNew - Hand\ParasSRT\obj\Debug\ParasSRT.pdb
+E:\Paras source\ParasSRT\ParasSRT\bin\Debug\GpioLib.dll
+E:\Paras source\ParasSRT\ParasSRT\bin\Debug\testdll.dll
+E:\Paras source\ParasSRT\ParasSRT\bin\Debug\GPIO.vb
+E:\Paras source\ParasSRT\ParasSRT\bin\Debug\ParasSRT.exe
+E:\Paras source\ParasSRT\ParasSRT\bin\Debug\ParasSRT.pdb
+E:\Paras source\ParasSRT\ParasSRT\bin\Debug\ParasSRT.xml
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.exe
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.xml
+E:\Paras source\ParasSRT\ParasSRT\obj\Debug\ParasSRT.pdb
+D:\yehiya\zaid\ParasSRT\ParasSRT\bin\Debug\GpioLib.dll
+D:\yehiya\zaid\ParasSRT\ParasSRT\bin\Debug\testdll.dll
+D:\yehiya\zaid\ParasSRT\ParasSRT\bin\Debug\GPIO.vb
+D:\yehiya\zaid\ParasSRT\ParasSRT\bin\Debug\ParasSRT.exe
+D:\yehiya\zaid\ParasSRT\ParasSRT\bin\Debug\ParasSRT.pdb
+D:\yehiya\zaid\ParasSRT\ParasSRT\bin\Debug\ParasSRT.xml
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.exe
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.xml
+D:\yehiya\zaid\ParasSRT\ParasSRT\obj\Debug\ParasSRT.pdb
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\bin\Debug\GpioLib.dll
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\bin\Debug\testdll.dll
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\bin\Debug\GPIO.vb
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\bin\Debug\ParasSRT.exe
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\bin\Debug\ParasSRT.pdb
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\bin\Debug\ParasSRT.xml
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.exe
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.xml
+D:\yehiya\Visual studio\project backup\old backup\oldcode\zumi last realease code vb\1.ParasSRT-vb cmpletede source18.2.19 @9.00pm\ParasSRT\obj\Debug\ParasSRT.pdb
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\bin\Debug\GpioLib.dll
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\bin\Debug\testdll.dll
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\bin\Debug\GPIO.vb
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\bin\Debug\ParasSRT.exe
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\bin\Debug\ParasSRT.xml
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.frmLog.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.frmView.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.exe
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.xml
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 12.3.19 @7.08 pm\ParasSRT\obj\Debug\ParasSRT.pdb
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\bin\Debug\GpioLib.dll
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\bin\Debug\testdll.dll
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\bin\Debug\GPIO.vb
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\bin\Debug\ParasSRT.exe
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\bin\Debug\ParasSRT.pdb
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\bin\Debug\ParasSRT.xml
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.frmLog.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.frmView.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.exe
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.xml
+C:\Users\ZUMI-PC\Desktop\1.ParasSRT-vb cmpletede source 22.3.19 @3.11 pm\ParasSRT\obj\Debug\ParasSRT.pdb
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\bin\Debug\GpioLib.dll
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\bin\Debug\testdll.dll
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\bin\Debug\GPIO.vb
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\bin\Debug\ParasSRT.exe
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\bin\Debug\ParasSRT.pdb
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\bin\Debug\ParasSRT.xml
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.frmLog.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.frmView.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.exe
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.xml
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed source  (error solved) 8.02.20 @ 1.10pm\ParasSRT\obj\Debug\ParasSRT.pdb
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\bin\Debug\GpioLib.dll
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\bin\Debug\testdll.dll
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\bin\Debug\GPIO.vb
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\bin\Debug\ParasSRT.exe
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\bin\Debug\ParasSRT.pdb
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\bin\Debug\ParasSRT.xml
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.frmLog.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.frmView.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.exe
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.xml
+G:\Zumiapplication\Yehiya\VB\Paras Electronics\Working Code\SRT\ParasSRT-VB-Device  Completed  (Color mismatcah)@3.00pm\ParasSRT\obj\Debug\ParasSRT.pdb
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\bin\Debug\GpioLib.dll
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\bin\Debug\testdll.dll
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\bin\Debug\GPIO.vb
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\bin\Debug\ParasSRT.exe
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\bin\Debug\ParasSRT.pdb
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\bin\Debug\ParasSRT.xml
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ResolveAssemblyReference.cache
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.frmMain.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.frmTest.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.frmCalib.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.frmData.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.frmColors.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.frmGraph.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.frmLog.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.frmView.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.Resources.resources
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.vbproj.GenerateResource.Cache
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.exe
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.xml
+I:\Arshad Working VB\VB\4Apps\SRT\Working Code\Section B\New folder\ParasSRT\obj\Debug\ParasSRT.pdb

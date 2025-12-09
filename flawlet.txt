@@ -1,0 +1,19 @@
+With the latest application, we found the following problems.
+
+
+1. After freezing in defect details, TP text box entry is not proper and to be made alpha numeric.
+
+
+2. freezed channel No. display is not correct.
+
+
+3. List box size to be fixed to the data.
+
+
+4. When we open the freezed data file, the parameters showing are not correct.
+
+
+5. In calibration setup sometimes the parameter names are not displaying.
+
+
+6. Deleting the Calibration sets is not made. 

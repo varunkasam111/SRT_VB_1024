@@ -1,0 +1,2861 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sampletest
+</name>
+</assembly>
+<members>
+<member name="P:sample_test.ResourcesTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.ResourcesTest.ResourceManagerTest">
+	<summary>
+A test for ResourceManager
+</summary>
+</member><member name="M:sample_test.ResourcesTest.CultureTest">
+	<summary>
+A test for Culture
+</summary>
+</member><member name="T:sample_test.ResourcesTest">
+	<summary>
+This is a test class for ResourcesTest and is intended
+to contain all ResourcesTest Unit Tests
+</summary>
+</member><member name="P:sample_test.MyProjectTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.MyProjectTest.WebServicesTest">
+	<summary>
+A test for WebServices
+</summary>
+</member><member name="M:sample_test.MyProjectTest.FormsTest">
+	<summary>
+A test for Forms
+</summary>
+</member><member name="T:sample_test.MyProjectTest">
+	<summary>
+This is a test class for MyProjectTest and is intended
+to contain all MyProjectTest Unit Tests
+</summary>
+</member><member name="P:sample_test.Module1Test.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.Module1Test.WriteiWConfigTest">
+	<summary>
+A test for WriteiWConfig
+</summary>
+</member><member name="M:sample_test.Module1Test.StripDotDash2DashTest">
+	<summary>
+A test for StripDotDash2Dash
+</summary>
+</member><member name="M:sample_test.Module1Test.SortListnameTest">
+	<summary>
+A test for SortListname
+</summary>
+</member><member name="M:sample_test.Module1Test.SortListTest">
+	<summary>
+A test for SortList
+</summary>
+</member><member name="M:sample_test.Module1Test.SetWaveAngTest">
+	<summary>
+A test for SetWaveAng
+</summary>
+</member><member name="M:sample_test.Module1Test.SetVars2Test">
+	<summary>
+A test for SetVars2
+</summary>
+</member><member name="M:sample_test.Module1Test.SetVarsTest">
+	<summary>
+A test for SetVars
+</summary>
+</member><member name="M:sample_test.Module1Test.SetPensTest">
+	<summary>
+A test for SetPens
+</summary>
+</member><member name="M:sample_test.Module1Test.SetCursorPosTest">
+	<summary>
+A test for SetCursorPos
+</summary>
+</member><member name="M:sample_test.Module1Test.setConfigTest">
+	<summary>
+A test for setConfig
+</summary>
+</member><member name="M:sample_test.Module1Test.SendGainSetTest">
+	<summary>
+A test for SendGainSet
+</summary>
+</member><member name="M:sample_test.Module1Test.SendGainTest">
+	<summary>
+A test for SendGain
+</summary>
+</member><member name="M:sample_test.Module1Test.SaveGain10CHTest">
+	<summary>
+A test for SaveGain10CH
+</summary>
+</member><member name="M:sample_test.Module1Test.SaveGainTest">
+	<summary>
+A test for SaveGain
+</summary>
+</member><member name="M:sample_test.Module1Test.SaveConfigTest">
+	<summary>
+A test for SaveConfig
+</summary>
+</member><member name="M:sample_test.Module1Test.SaveAng10CHTest">
+	<summary>
+A test for SaveAng10CH
+</summary>
+</member><member name="M:sample_test.Module1Test.SaveAngTest">
+	<summary>
+A test for SaveAng
+</summary>
+</member><member name="M:sample_test.Module1Test.RangemmTest">
+	<summary>
+A test for Rangemm
+</summary>
+</member><member name="M:sample_test.Module1Test.RangemlTest">
+	<summary>
+A test for Rangeml
+</summary>
+</member><member name="M:sample_test.Module1Test.PauseItTest">
+	<summary>
+A test for PauseIt
+</summary>
+</member><member name="M:sample_test.Module1Test.OpenConfig2Test">
+	<summary>
+A test for OpenConfig2
+</summary>
+</member><member name="M:sample_test.Module1Test.OpenConfigTest">
+	<summary>
+A test for OpenConfig
+</summary>
+</member><member name="M:sample_test.Module1Test.LoadParamsTest">
+	<summary>
+A test for LoadParams
+</summary>
+</member><member name="M:sample_test.Module1Test.IsUpDnTest">
+	<summary>
+A test for IsUpDn
+</summary>
+</member><member name="M:sample_test.Module1Test.IsLfRtTest">
+	<summary>
+A test for IsLfRt
+</summary>
+</member><member name="M:sample_test.Module1Test.IsFuncKeyTest">
+	<summary>
+A test for IsFuncKey
+</summary>
+</member><member name="M:sample_test.Module1Test.GetWaveAngTest">
+	<summary>
+A test for GetWaveAng
+</summary>
+</member><member name="M:sample_test.Module1Test.GetCursorPosTest">
+	<summary>
+A test for GetCursorPos
+</summary>
+</member><member name="M:sample_test.Module1Test.GetAppPathTest">
+	<summary>
+A test for GetAppPath
+</summary>
+</member><member name="M:sample_test.Module1Test.ExtractFilenameTest">
+	<summary>
+A test for ExtractFilename
+</summary>
+</member><member name="M:sample_test.Module1Test.DeviceIoControlTest">
+	<summary>
+A test for DeviceIoControl
+</summary>
+</member><member name="M:sample_test.Module1Test.CreateFileTest">
+	<summary>
+A test for CreateFile
+</summary>
+</member><member name="M:sample_test.Module1Test.config10CHTest">
+	<summary>
+A test for config10CH
+</summary>
+</member><member name="M:sample_test.Module1Test.CloseHandleTest">
+	<summary>
+A test for CloseHandle
+</summary>
+</member><member name="T:sample_test.Module1Test">
+	<summary>
+This is a test class for Module1Test and is intended
+to contain all Module1Test Unit Tests
+</summary>
+</member><member name="P:sample_test.GPIOTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.GPIOTest.SetPinLevelTest">
+	<summary>
+A test for SetPinLevel
+</summary>
+</member><member name="M:sample_test.GPIOTest.SetPinDirTest">
+	<summary>
+A test for SetPinDir
+</summary>
+</member><member name="M:sample_test.GPIOTest.SetPinAltFnTest">
+	<summary>
+A test for SetPinAltFn
+</summary>
+</member><member name="M:sample_test.GPIOTest.SetGPIOLevelTest">
+	<summary>
+A test for SetGPIOLevel
+</summary>
+</member><member name="M:sample_test.GPIOTest.SetGPIOEdgeDetectTest">
+	<summary>
+A test for SetGPIOEdgeDetect
+</summary>
+</member><member name="M:sample_test.GPIOTest.SetGPIODirTest">
+	<summary>
+A test for SetGPIODir
+</summary>
+</member><member name="M:sample_test.GPIOTest.SetGPIOAltFnTest">
+	<summary>
+A test for SetGPIOAltFn
+</summary>
+</member><member name="M:sample_test.GPIOTest.read_dpram_valueTest">
+	<summary>
+A test for read_dpram_value
+</summary>
+</member><member name="M:sample_test.GPIOTest.InitGPIOLibTest">
+	<summary>
+A test for InitGPIOLib
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetProzessorIDTest">
+	<summary>
+A test for GetProzessorID
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetPinLevelTest">
+	<summary>
+A test for GetPinLevel
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetPinDirTest">
+	<summary>
+A test for GetPinDir
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetPinAltFnTest">
+	<summary>
+A test for GetPinAltFn
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetGPIOLevelTest">
+	<summary>
+A test for GetGPIOLevel
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetGPIOEdgeStatusTest">
+	<summary>
+A test for GetGPIOEdgeStatus
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetGPIOEdgeDetectTest">
+	<summary>
+A test for GetGPIOEdgeDetect
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetGPIODirTest">
+	<summary>
+A test for GetGPIODir
+</summary>
+</member><member name="M:sample_test.GPIOTest.GetGPIOAltFnTest">
+	<summary>
+A test for GetGPIOAltFn
+</summary>
+</member><member name="M:sample_test.GPIOTest.DeInitGPIOLibTest">
+	<summary>
+A test for DeInitGPIOLib
+</summary>
+</member><member name="M:sample_test.GPIOTest.ClearGPIOEdgeStatusTest">
+	<summary>
+A test for ClearGPIOEdgeStatus
+</summary>
+</member><member name="M:sample_test.GPIOTest.GPIOConstructorTest">
+	<summary>
+A test for GPIO Constructor
+</summary>
+</member><member name="T:sample_test.GPIOTest">
+	<summary>
+This is a test class for GPIOTest and is intended
+to contain all GPIOTest Unit Tests
+</summary>
+</member><member name="P:sample_test.frmViewTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.frmViewTest.tvlblTest">
+	<summary>
+A test for tvlbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.timelblTest">
+	<summary>
+A test for timelbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.PictureBox1Test">
+	<summary>
+A test for PictureBox1
+</summary>
+</member><member name="M:sample_test.frmViewTest.picGraphTest">
+	<summary>
+A test for picGraph
+</summary>
+</member><member name="M:sample_test.frmViewTest.Panel1Test">
+	<summary>
+A test for Panel1
+</summary>
+</member><member name="M:sample_test.frmViewTest.LonlblTest">
+	<summary>
+A test for Lonlbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.lblvHTest">
+	<summary>
+A test for lblvH
+</summary>
+</member><member name="M:sample_test.frmViewTest.lblvdTest">
+	<summary>
+A test for lblvd
+</summary>
+</member><member name="M:sample_test.frmViewTest.lblvbpTest">
+	<summary>
+A test for lblvbp
+</summary>
+</member><member name="M:sample_test.frmViewTest.lbllongTest">
+	<summary>
+A test for lbllong
+</summary>
+</member><member name="M:sample_test.frmViewTest.lblHMtxtTest">
+	<summary>
+A test for lblHMtxt
+</summary>
+</member><member name="M:sample_test.frmViewTest.lblhmTest">
+	<summary>
+A test for lblhm
+</summary>
+</member><member name="M:sample_test.frmViewTest.lblHTest">
+	<summary>
+A test for lblH
+</summary>
+</member><member name="M:sample_test.frmViewTest.lbldepthTest">
+	<summary>
+A test for lbldepth
+</summary>
+</member><member name="M:sample_test.frmViewTest.lblbpTest">
+	<summary>
+A test for lblbp
+</summary>
+</member><member name="M:sample_test.frmViewTest.latvlblTest">
+	<summary>
+A test for latvlbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.latlblTest">
+	<summary>
+A test for latlbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label9Test">
+	<summary>
+A test for Label9
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label8Test">
+	<summary>
+A test for Label8
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label7Test">
+	<summary>
+A test for Label7
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label6Test">
+	<summary>
+A test for Label6
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label5Test">
+	<summary>
+A test for Label5
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label4Test">
+	<summary>
+A test for Label4
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label3Test">
+	<summary>
+A test for Label3
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label2Test">
+	<summary>
+A test for Label2
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label10Test">
+	<summary>
+A test for Label10
+</summary>
+</member><member name="M:sample_test.frmViewTest.Label1Test">
+	<summary>
+A test for Label1
+</summary>
+</member><member name="M:sample_test.frmViewTest.frm8mvlblTest">
+	<summary>
+A test for frm8mvlbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.frm8lbl_chTest">
+	<summary>
+A test for frm8lbl_ch
+</summary>
+</member><member name="M:sample_test.frmViewTest.frm8kmvlabelTest">
+	<summary>
+A test for frm8kmvlabel
+</summary>
+</member><member name="M:sample_test.frmViewTest.dispTest">
+	<summary>
+A test for disp
+</summary>
+</member><member name="M:sample_test.frmViewTest.dismlblTest">
+	<summary>
+A test for dismlbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.diskmlblTest">
+	<summary>
+A test for diskmlbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.datevlblTest">
+	<summary>
+A test for datevlbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.datelblTest">
+	<summary>
+A test for datelbl
+</summary>
+</member><member name="M:sample_test.frmViewTest.UpdateMeterTest">
+	<summary>
+A test for UpdateMeter
+</summary>
+</member><member name="M:sample_test.frmViewTest.UpdateKMTest">
+	<summary>
+A test for UpdateKM
+</summary>
+</member><member name="M:sample_test.frmViewTest.ToDMSTest">
+	<summary>
+A test for ToDMS
+</summary>
+</member><member name="M:sample_test.frmViewTest.ReDrawChTest">
+	<summary>
+A test for ReDrawCh
+</summary>
+</member><member name="M:sample_test.frmViewTest.ReDrawAllChTest">
+	<summary>
+A test for ReDrawAllCh
+</summary>
+</member><member name="M:sample_test.frmViewTest.ReadConfigFileTest">
+	<summary>
+A test for ReadConfigFile
+</summary>
+</member><member name="M:sample_test.frmViewTest.PlotCurvesTTest">
+	<summary>
+A test for PlotCurvesT
+</summary>
+</member><member name="M:sample_test.frmViewTest.OpenReadAndPlotDataTest">
+	<summary>
+A test for OpenReadAndPlotData
+</summary>
+</member><member name="M:sample_test.frmViewTest.LogDataFolderViewTest">
+	<summary>
+A test for LogDataFolderView
+</summary>
+</member><member name="M:sample_test.frmViewTest.InitializeComponentTest">
+	<summary>
+A test for InitializeComponent
+</summary>
+</member><member name="M:sample_test.frmViewTest.frmView_LoadTest">
+	<summary>
+A test for frmView_Load
+</summary>
+</member><member name="M:sample_test.frmViewTest.frmView_KeyDownTest">
+	<summary>
+A test for frmView_KeyDown
+</summary>
+</member><member name="M:sample_test.frmViewTest.DrawGraphTest">
+	<summary>
+A test for DrawGraph
+</summary>
+</member><member name="M:sample_test.frmViewTest.DrawFixedFrameTest">
+	<summary>
+A test for DrawFixedFrame
+</summary>
+</member><member name="M:sample_test.frmViewTest.DisposeTest">
+	<summary>
+A test for Dispose
+</summary>
+</member><member name="M:sample_test.frmViewTest.ClearBScanWindowTest">
+	<summary>
+A test for ClearBScanWindow
+</summary>
+</member><member name="M:sample_test.frmViewTest.CalculateGateValueTest">
+	<summary>
+A test for CalculateGateValue
+</summary>
+</member><member name="M:sample_test.frmViewTest.AcquireFreezeDataTest">
+	<summary>
+A test for AcquireFreezeData
+</summary>
+</member><member name="M:sample_test.frmViewTest.frmViewConstructorTest">
+	<summary>
+A test for frmView Constructor
+</summary>
+</member><member name="T:sample_test.frmViewTest">
+	<summary>
+This is a test class for frmViewTest and is intended
+to contain all frmViewTest Unit Tests
+</summary>
+</member><member name="P:sample_test.frmTestTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtTP2Test">
+	<summary>
+A test for txtTP2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtTPTest">
+	<summary>
+A test for txtTP
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtTotKmTest">
+	<summary>
+A test for txtTotKm
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtTimeTest">
+	<summary>
+A test for txtTime
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSta2Test">
+	<summary>
+A test for txtSta2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSta1Test">
+	<summary>
+A test for txtSta1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSecTest">
+	<summary>
+A test for txtSec
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtRemTest">
+	<summary>
+A test for txtRem
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtPH2Test">
+	<summary>
+A test for txtPH2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtPHTest">
+	<summary>
+A test for txtPH
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtNameTest">
+	<summary>
+A test for txtName
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMeter2Test">
+	<summary>
+A test for txtMeter2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMCNOTest">
+	<summary>
+A test for txtMCNO
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMask4Test">
+	<summary>
+A test for txtMask4
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMask3Test">
+	<summary>
+A test for txtMask3
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMTest">
+	<summary>
+A test for txtM
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLongtitudeTest">
+	<summary>
+A test for txtLongtitude
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc3Test">
+	<summary>
+A test for txtLoc3
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc2Test">
+	<summary>
+A test for txtLoc2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc1Test">
+	<summary>
+A test for txtLoc1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtlenTest">
+	<summary>
+A test for txtlen
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLatitudeTest">
+	<summary>
+A test for txtLatitude
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtKM2Test">
+	<summary>
+A test for txtKM2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtKmTest">
+	<summary>
+A test for txtKm
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtHM2Test">
+	<summary>
+A test for txtHM2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtHMTest">
+	<summary>
+A test for txtHM
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtheightTest">
+	<summary>
+A test for txtheight
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtendTPTest">
+	<summary>
+A test for txtendTP
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtEndMeterTest">
+	<summary>
+A test for txtEndMeter
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtEndKmTest">
+	<summary>
+A test for txtEndKm
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtDivTest">
+	<summary>
+A test for txtDiv
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtdepthTest">
+	<summary>
+A test for txtdepth
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtDateTest">
+	<summary>
+A test for txtDate
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtcmTest">
+	<summary>
+A test for txtcm
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtckmTest">
+	<summary>
+A test for txtckm
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtChTest">
+	<summary>
+A test for txtCh
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtbpTest">
+	<summary>
+A test for txtbp
+</summary>
+</member><member name="M:sample_test.frmTestTest.Panel4Test">
+	<summary>
+A test for Panel4
+</summary>
+</member><member name="M:sample_test.frmTestTest.Panel1Test">
+	<summary>
+A test for Panel1
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblTyp2Test">
+	<summary>
+A test for lblTyp2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblTypTest">
+	<summary>
+A test for lblTyp
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblTP2Test">
+	<summary>
+A test for lblTP2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblTotKmTest">
+	<summary>
+A test for lblTotKm
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblTimeTest">
+	<summary>
+A test for lblTime
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblTestTest">
+	<summary>
+A test for lblTest
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblStationTest">
+	<summary>
+A test for lblStation
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblSetTest">
+	<summary>
+A test for lblSet
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblSecTest">
+	<summary>
+A test for lblSec
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblRoadTest">
+	<summary>
+A test for lblRoad
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblRangeStartTest">
+	<summary>
+A test for lblRangeStart
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblrailtypeTest">
+	<summary>
+A test for lblrailtype
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblRailTest">
+	<summary>
+A test for lblRail
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblProbeTest">
+	<summary>
+A test for lblProbe
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblPrevTest">
+	<summary>
+A test for lblPrev
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblPHTest">
+	<summary>
+A test for lblPH
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblOPNameTest">
+	<summary>
+A test for lblOPName
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMenu7Test">
+	<summary>
+A test for lblMenu7
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMenu6Test">
+	<summary>
+A test for lblMenu6
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMenu5Test">
+	<summary>
+A test for lblMenu5
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMenu4Test">
+	<summary>
+A test for lblMenu4
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMenu3Test">
+	<summary>
+A test for lblMenu3
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMenu2Test">
+	<summary>
+A test for lblMenu2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMenu1Test">
+	<summary>
+A test for lblMenu1
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMcnoTest">
+	<summary>
+A test for lblMcno
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblMTest">
+	<summary>
+A test for lblM
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblLongtitudeTest">
+	<summary>
+A test for lblLongtitude
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblLoc2Test">
+	<summary>
+A test for lblLoc2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblLocTest">
+	<summary>
+A test for lblLoc
+</summary>
+</member><member name="M:sample_test.frmTestTest.lbllenTest">
+	<summary>
+A test for lbllen
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblLatitudeTest">
+	<summary>
+A test for lblLatitude
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblKM2Test">
+	<summary>
+A test for lblKM2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblKMTest">
+	<summary>
+A test for lblKM
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblHM2Test">
+	<summary>
+A test for lblHM2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblHMTest">
+	<summary>
+A test for lblHM
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblFLocTest">
+	<summary>
+A test for lblFLoc
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblFlawTest">
+	<summary>
+A test for lblFlaw
+</summary>
+</member><member name="M:sample_test.frmTestTest.LblendtpTest">
+	<summary>
+A test for Lblendtp
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblendmTest">
+	<summary>
+A test for lblendm
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblEndKmTest">
+	<summary>
+A test for lblEndKm
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblDTTest">
+	<summary>
+A test for lblDT
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblDivTest">
+	<summary>
+A test for lblDiv
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblDesc2Test">
+	<summary>
+A test for lblDesc2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblCode2Test">
+	<summary>
+A test for lblCode2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblCodeTest">
+	<summary>
+A test for lblCode
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblClass2Test">
+	<summary>
+A test for lblClass2
+</summary>
+</member><member name="M:sample_test.frmTestTest.lblClassTest">
+	<summary>
+A test for lblClass
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label9Test">
+	<summary>
+A test for Label9
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label8Test">
+	<summary>
+A test for Label8
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label7Test">
+	<summary>
+A test for Label7
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label6Test">
+	<summary>
+A test for Label6
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label5Test">
+	<summary>
+A test for Label5
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label4Test">
+	<summary>
+A test for Label4
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label3Test">
+	<summary>
+A test for Label3
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label2Test">
+	<summary>
+A test for Label2
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label14Test">
+	<summary>
+A test for Label14
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label13Test">
+	<summary>
+A test for Label13
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label12Test">
+	<summary>
+A test for Label12
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label11Test">
+	<summary>
+A test for Label11
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label10Test">
+	<summary>
+A test for Label10
+</summary>
+</member><member name="M:sample_test.frmTestTest.Label1Test">
+	<summary>
+A test for Label1
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbTyp2Test">
+	<summary>
+A test for cmbTyp2
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbTypTest">
+	<summary>
+A test for cmbTyp
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbSetsTest">
+	<summary>
+A test for cmbSets
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbRoadTest">
+	<summary>
+A test for cmbRoad
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbRange2Test">
+	<summary>
+A test for cmbRange2
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbRange1Test">
+	<summary>
+A test for cmbRange1
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbrailtypeTest">
+	<summary>
+A test for cmbrailtype
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbRailTest">
+	<summary>
+A test for cmbRail
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbProbeTest">
+	<summary>
+A test for cmbProbe
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbMask2Test">
+	<summary>
+A test for cmbMask2
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbMask1Test">
+	<summary>
+A test for cmbMask1
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbLRTest">
+	<summary>
+A test for cmbLR
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbFLoc2Test">
+	<summary>
+A test for cmbFLoc2
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbFLocTest">
+	<summary>
+A test for cmbFLoc
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbCrisTest">
+	<summary>
+A test for cmbCris
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbCode2Test">
+	<summary>
+A test for cmbCode2
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbCodeTest">
+	<summary>
+A test for cmbCode
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbClass2Test">
+	<summary>
+A test for cmbClass2
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbClassTest">
+	<summary>
+A test for cmbClass
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtTP2_TextChanged_2Test">
+	<summary>
+A test for txtTP2_TextChanged_2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtTP2_TextChanged_1Test">
+	<summary>
+A test for txtTP2_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtTP2_TextChangedTest">
+	<summary>
+A test for txtTP2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtTP_TextChanged_1Test">
+	<summary>
+A test for txtTP_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSta2_TextChanged_2Test">
+	<summary>
+A test for txtSta2_TextChanged_2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSta2_TextChanged_1Test">
+	<summary>
+A test for txtSta2_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSta2_TextChangedTest">
+	<summary>
+A test for txtSta2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSta1_TextChanged_2Test">
+	<summary>
+A test for txtSta1_TextChanged_2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSta1_TextChanged_1Test">
+	<summary>
+A test for txtSta1_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSta1_TextChangedTest">
+	<summary>
+A test for txtSta1_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtSec_TextChangedTest">
+	<summary>
+A test for txtSec_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtRem_TextChangedTest">
+	<summary>
+A test for txtRem_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtPH2_TextChangedTest">
+	<summary>
+A test for txtPH2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtName_TextChangedTest">
+	<summary>
+A test for txtName_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMeter2_TextChanged_4Test">
+	<summary>
+A test for txtMeter2_TextChanged_4
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMeter2_TextChanged_3Test">
+	<summary>
+A test for txtMeter2_TextChanged_3
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMeter2_TextChanged_2Test">
+	<summary>
+A test for txtMeter2_TextChanged_2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMask4_TextChanged_1Test">
+	<summary>
+A test for txtMask4_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMask4_TextChangedTest">
+	<summary>
+A test for txtMask4_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMask3_TextChanged_1Test">
+	<summary>
+A test for txtMask3_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtMask3_TextChangedTest">
+	<summary>
+A test for txtMask3_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc3_TextChanged_2Test">
+	<summary>
+A test for txtLoc3_TextChanged_2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc3_TextChanged_1Test">
+	<summary>
+A test for txtLoc3_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc3_TextChangedTest">
+	<summary>
+A test for txtLoc3_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc2_TextChanged_2Test">
+	<summary>
+A test for txtLoc2_TextChanged_2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc2_TextChanged_1Test">
+	<summary>
+A test for txtLoc2_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc2_TextChangedTest">
+	<summary>
+A test for txtLoc2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc1_TextChanged_2Test">
+	<summary>
+A test for txtLoc1_TextChanged_2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc1_TextChanged_1Test">
+	<summary>
+A test for txtLoc1_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtLoc1_TextChangedTest">
+	<summary>
+A test for txtLoc1_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtKM2_TextChanged_2Test">
+	<summary>
+A test for txtKM2_TextChanged_2
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtKM2_TextChanged_1Test">
+	<summary>
+A test for txtKM2_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtKm_TextChangedTest">
+	<summary>
+A test for txtKm_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txtDiv_TextChangedTest">
+	<summary>
+A test for txtDiv_TextChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.txt_KeyPressTest">
+	<summary>
+A test for txt_KeyPress
+</summary>
+</member><member name="M:sample_test.frmTestTest.SortList1Test">
+	<summary>
+A test for SortList1
+</summary>
+</member><member name="M:sample_test.frmTestTest.ShowControlsTest">
+	<summary>
+A test for ShowControls
+</summary>
+</member><member name="M:sample_test.frmTestTest.SetTextBoxTest">
+	<summary>
+A test for SetTextBox
+</summary>
+</member><member name="M:sample_test.frmTestTest.setProbesTest">
+	<summary>
+A test for setProbes
+</summary>
+</member><member name="M:sample_test.frmTestTest.SetParamsTest">
+	<summary>
+A test for SetParams
+</summary>
+</member><member name="M:sample_test.frmTestTest.ScaleRangeTest">
+	<summary>
+A test for ScaleRange
+</summary>
+</member><member name="M:sample_test.frmTestTest.SaveInfo1Test">
+	<summary>
+A test for SaveInfo1
+</summary>
+</member><member name="M:sample_test.frmTestTest.SaveInfoTest1">
+	<summary>
+A test for SaveInfo
+</summary>
+</member><member name="M:sample_test.frmTestTest.SaveInfoTest">
+	<summary>
+A test for SaveInfo
+</summary>
+</member><member name="M:sample_test.frmTestTest.SaveData2Test">
+	<summary>
+A test for SaveData2
+</summary>
+</member><member name="M:sample_test.frmTestTest.SaveDataTest">
+	<summary>
+A test for SaveData
+</summary>
+</member><member name="M:sample_test.frmTestTest.RunZoomTest">
+	<summary>
+A test for RunZoom
+</summary>
+</member><member name="M:sample_test.frmTestTest.RunSelfTestTest">
+	<summary>
+A test for RunSelfTest
+</summary>
+</member><member name="M:sample_test.frmTestTest.RunFreezeTest">
+	<summary>
+A test for RunFreeze
+</summary>
+</member><member name="M:sample_test.frmTestTest.ReadOrgPRSTest">
+	<summary>
+A test for ReadOrgPRS
+</summary>
+</member><member name="M:sample_test.frmTestTest.ReadInfoTest">
+	<summary>
+A test for ReadInfo
+</summary>
+</member><member name="M:sample_test.frmTestTest.ReadConfigFileTest">
+	<summary>
+A test for ReadConfigFile
+</summary>
+</member><member name="M:sample_test.frmTestTest.prv_jpgTest">
+	<summary>
+A test for prv_jpg
+</summary>
+</member><member name="M:sample_test.frmTestTest.InitializeComponentTest">
+	<summary>
+A test for InitializeComponent
+</summary>
+</member><member name="M:sample_test.frmTestTest.GetDateStringTest">
+	<summary>
+A test for GetDateString
+</summary>
+</member><member name="M:sample_test.frmTestTest.frmTest_UpdateEndTest">
+	<summary>
+A test for frmTest_UpdateEnd
+</summary>
+</member><member name="M:sample_test.frmTestTest.frmTest_MouseMoveTest">
+	<summary>
+A test for frmTest_MouseMove
+</summary>
+</member><member name="M:sample_test.frmTestTest.frmTest_LoadTest">
+	<summary>
+A test for frmTest_Load
+</summary>
+</member><member name="M:sample_test.frmTestTest.frmTest_KeyUpTest">
+	<summary>
+A test for frmTest_KeyUp
+</summary>
+</member><member name="M:sample_test.frmTestTest.frmTest_KeyPressTest">
+	<summary>
+A test for frmTest_KeyPress
+</summary>
+</member><member name="M:sample_test.frmTestTest.frmTest_KeyDownTest">
+	<summary>
+A test for frmTest_KeyDown
+</summary>
+</member><member name="M:sample_test.frmTestTest.frmTest_ActivatedTest">
+	<summary>
+A test for frmTest_Activated
+</summary>
+</member><member name="M:sample_test.frmTestTest.DivisionParameterTest">
+	<summary>
+A test for DivisionParameter
+</summary>
+</member><member name="M:sample_test.frmTestTest.DisposeTest">
+	<summary>
+A test for Dispose
+</summary>
+</member><member name="M:sample_test.frmTestTest.DescriptionTest">
+	<summary>
+A test for Description
+</summary>
+</member><member name="M:sample_test.frmTestTest.DelOrgPRSTest">
+	<summary>
+A test for DelOrgPRS
+</summary>
+</member><member name="M:sample_test.frmTestTest.DefaultvaluesTest">
+	<summary>
+A test for Defaultvalues
+</summary>
+</member><member name="M:sample_test.frmTestTest.current_kmupdateTest">
+	<summary>
+A test for current_kmupdate
+</summary>
+</member><member name="M:sample_test.frmTestTest.CreateRunFolderTest">
+	<summary>
+A test for CreateRunFolder
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbRail_SelectedIndexChangedTest">
+	<summary>
+A test for cmbRail_SelectedIndexChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.cmbCode_SelectedIndexChangedTest">
+	<summary>
+A test for cmbCode_SelectedIndexChanged
+</summary>
+</member><member name="M:sample_test.frmTestTest.frmTestConstructorTest">
+	<summary>
+A test for frmTest Constructor
+</summary>
+</member><member name="T:sample_test.frmTestTest">
+	<summary>
+This is a test class for frmTestTest and is intended
+to contain all frmTestTest Unit Tests
+</summary>
+</member><member name="P:sample_test.frmMainTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.frmMainTest.PictureBox1Test">
+	<summary>
+A test for PictureBox1
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblParasTest">
+	<summary>
+A test for lblParas
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblMenu8Test">
+	<summary>
+A test for lblMenu8
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblMenu7Test">
+	<summary>
+A test for lblMenu7
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblMenu6Test">
+	<summary>
+A test for lblMenu6
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblMenu5Test">
+	<summary>
+A test for lblMenu5
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblMenu4Test">
+	<summary>
+A test for lblMenu4
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblMenu3Test">
+	<summary>
+A test for lblMenu3
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblMenu2Test">
+	<summary>
+A test for lblMenu2
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblMenu1Test">
+	<summary>
+A test for lblMenu1
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblDateTest">
+	<summary>
+A test for lblDate
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblCaption2Test">
+	<summary>
+A test for lblCaption2
+</summary>
+</member><member name="M:sample_test.frmMainTest.lblCaptionTest">
+	<summary>
+A test for lblCaption
+</summary>
+</member><member name="M:sample_test.frmMainTest.ToraGetDataTest">
+	<summary>
+A test for ToraGetData
+</summary>
+</member><member name="M:sample_test.frmMainTest.SetPlotsTest">
+	<summary>
+A test for SetPlots
+</summary>
+</member><member name="M:sample_test.frmMainTest.PlotCurvesTTest">
+	<summary>
+A test for PlotCurvesT
+</summary>
+</member><member name="M:sample_test.frmMainTest.MainTest">
+	<summary>
+A test for Main
+</summary>
+</member><member name="M:sample_test.frmMainTest.Load_GraphTest">
+	<summary>
+A test for Load_Graph
+</summary>
+</member><member name="M:sample_test.frmMainTest.InitializeComponentTest">
+	<summary>
+A test for InitializeComponent
+</summary>
+</member><member name="M:sample_test.frmMainTest.frmMain_KeyDownTest">
+	<summary>
+A test for frmMain_KeyDown
+</summary>
+</member><member name="M:sample_test.frmMainTest.frmMain_ClosedTest">
+	<summary>
+A test for frmMain_Closed
+</summary>
+</member><member name="M:sample_test.frmMainTest.Form1_LoadTest">
+	<summary>
+A test for Form1_Load
+</summary>
+</member><member name="M:sample_test.frmMainTest.DisposeTest">
+	<summary>
+A test for Dispose
+</summary>
+</member><member name="M:sample_test.frmMainTest.AcquireDPAllTest">
+	<summary>
+A test for AcquireDPAll
+</summary>
+</member><member name="M:sample_test.frmMainTest.frmMainConstructorTest">
+	<summary>
+A test for frmMain Constructor
+</summary>
+</member><member name="T:sample_test.frmMainTest">
+	<summary>
+This is a test class for frmMainTest and is intended
+to contain all frmMainTest Unit Tests
+</summary>
+</member><member name="P:sample_test.frmLogTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.frmLogTest.WarningTest">
+	<summary>
+A test for Warning
+</summary>
+</member><member name="M:sample_test.frmLogTest.Panel1Test">
+	<summary>
+A test for Panel1
+</summary>
+</member><member name="M:sample_test.frmLogTest.ListBox2Test">
+	<summary>
+A test for ListBox2
+</summary>
+</member><member name="M:sample_test.frmLogTest.ListBox1Test">
+	<summary>
+A test for ListBox1
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblOpts3Test">
+	<summary>
+A test for lblOpts3
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblOpts2Test">
+	<summary>
+A test for lblOpts2
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblMenu7Test">
+	<summary>
+A test for lblMenu7
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblMenu6Test">
+	<summary>
+A test for lblMenu6
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblMenu5Test">
+	<summary>
+A test for lblMenu5
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblMenu2Test">
+	<summary>
+A test for lblMenu2
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblMenu1Test">
+	<summary>
+A test for lblMenu1
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblDeleteAllTest">
+	<summary>
+A test for lblDeleteAll
+</summary>
+</member><member name="M:sample_test.frmLogTest.lblDeleteTest">
+	<summary>
+A test for lblDelete
+</summary>
+</member><member name="M:sample_test.frmLogTest.Label2Test">
+	<summary>
+A test for Label2
+</summary>
+</member><member name="M:sample_test.frmLogTest.Label1Test">
+	<summary>
+A test for Label1
+</summary>
+</member><member name="M:sample_test.frmLogTest.chkCRISTest">
+	<summary>
+A test for chkCRIS
+</summary>
+</member><member name="M:sample_test.frmLogTest.ListBox2_SelectedIndexChangedTest">
+	<summary>
+A test for ListBox2_SelectedIndexChanged
+</summary>
+</member><member name="M:sample_test.frmLogTest.ListBox2_LostFocusTest">
+	<summary>
+A test for ListBox2_LostFocus
+</summary>
+</member><member name="M:sample_test.frmLogTest.ListBox2_GotFocusTest">
+	<summary>
+A test for ListBox2_GotFocus
+</summary>
+</member><member name="M:sample_test.frmLogTest.ListBox1_SelectedIndexChangedTest">
+	<summary>
+A test for ListBox1_SelectedIndexChanged
+</summary>
+</member><member name="M:sample_test.frmLogTest.ListBox1_LostFocusTest">
+	<summary>
+A test for ListBox1_LostFocus
+</summary>
+</member><member name="M:sample_test.frmLogTest.ListBox1_GotFocusTest">
+	<summary>
+A test for ListBox1_GotFocus
+</summary>
+</member><member name="M:sample_test.frmLogTest.InitializeComponentTest">
+	<summary>
+A test for InitializeComponent
+</summary>
+</member><member name="M:sample_test.frmLogTest.frmLog_LoadTest">
+	<summary>
+A test for frmLog_Load
+</summary>
+</member><member name="M:sample_test.frmLogTest.frmLog_KeyDownTest">
+	<summary>
+A test for frmLog_KeyDown
+</summary>
+</member><member name="M:sample_test.frmLogTest.Frm5DelDirectoryTest">
+	<summary>
+A test for Frm5DelDirectory
+</summary>
+</member><member name="M:sample_test.frmLogTest.Frm5DelAllDirectoryTest">
+	<summary>
+A test for Frm5DelAllDirectory
+</summary>
+</member><member name="M:sample_test.frmLogTest.FileTransferTest">
+	<summary>
+A test for FileTransfer
+</summary>
+</member><member name="M:sample_test.frmLogTest.FileListTest">
+	<summary>
+A test for FileList
+</summary>
+</member><member name="M:sample_test.frmLogTest.DisposeTest">
+	<summary>
+A test for Dispose
+</summary>
+</member><member name="M:sample_test.frmLogTest.DirListTest">
+	<summary>
+A test for DirList
+</summary>
+</member><member name="M:sample_test.frmLogTest.CopyFileTest">
+	<summary>
+A test for CopyFile
+</summary>
+</member><member name="M:sample_test.frmLogTest.CopyDirectoryTest">
+	<summary>
+A test for CopyDirectory
+</summary>
+</member><member name="M:sample_test.frmLogTest.frmLogConstructorTest">
+	<summary>
+A test for frmLog Constructor
+</summary>
+</member><member name="T:sample_test.frmLogTest">
+	<summary>
+This is a test class for frmLogTest and is intended
+to contain all frmLogTest Unit Tests
+</summary>
+</member><member name="P:sample_test.frmGraphTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.frmGraphTest.ToraGetDataTest">
+	<summary>
+A test for ToraGetData
+</summary>
+</member><member name="M:sample_test.frmGraphTest.SetPlotsTest">
+	<summary>
+A test for SetPlots
+</summary>
+</member><member name="M:sample_test.frmGraphTest.PlotCurvesTTest">
+	<summary>
+A test for PlotCurvesT
+</summary>
+</member><member name="M:sample_test.frmGraphTest.InitializeComponentTest">
+	<summary>
+A test for InitializeComponent
+</summary>
+</member><member name="M:sample_test.frmGraphTest.frmGraph_LoadTest">
+	<summary>
+A test for frmGraph_Load
+</summary>
+</member><member name="M:sample_test.frmGraphTest.frmGraph_ClosedTest">
+	<summary>
+A test for frmGraph_Closed
+</summary>
+</member><member name="M:sample_test.frmGraphTest.FinalizeTest">
+	<summary>
+A test for Finalize
+</summary>
+</member><member name="M:sample_test.frmGraphTest.DisposeTest">
+	<summary>
+A test for Dispose
+</summary>
+</member><member name="M:sample_test.frmGraphTest.AcquireDPAllTest">
+	<summary>
+A test for AcquireDPAll
+</summary>
+</member><member name="M:sample_test.frmGraphTest.frmGraphConstructorTest">
+	<summary>
+A test for frmGraph Constructor
+</summary>
+</member><member name="T:sample_test.frmGraphTest">
+	<summary>
+This is a test class for frmGraphTest and is intended
+to contain all frmGraphTest Unit Tests
+</summary>
+</member><member name="P:sample_test.frmDataTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtTP2Test">
+	<summary>
+A test for txtTP2
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtTPTest">
+	<summary>
+A test for txtTP
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtTimeTest">
+	<summary>
+A test for txtTime
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtSta2Test">
+	<summary>
+A test for txtSta2
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtSta1Test">
+	<summary>
+A test for txtSta1
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtSetsTest">
+	<summary>
+A test for txtSets
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtSecTest">
+	<summary>
+A test for txtSec
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtRoadTest">
+	<summary>
+A test for txtRoad
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtRemTest">
+	<summary>
+A test for txtRem
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtrailtypeTest">
+	<summary>
+A test for txtrailtype
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtRailTest">
+	<summary>
+A test for txtRail
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtPH2Test">
+	<summary>
+A test for txtPH2
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtPHTest">
+	<summary>
+A test for txtPH
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtNameTest">
+	<summary>
+A test for txtName
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtMeter2Test">
+	<summary>
+A test for txtMeter2
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtMCNOTest">
+	<summary>
+A test for txtMCNO
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtMask4Test">
+	<summary>
+A test for txtMask4
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtMask3Test">
+	<summary>
+A test for txtMask3
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtMTest">
+	<summary>
+A test for txtM
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtlongtitudeTest">
+	<summary>
+A test for txtlongtitude
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtLoc3Test">
+	<summary>
+A test for txtLoc3
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtLoc2Test">
+	<summary>
+A test for txtLoc2
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtLoc1Test">
+	<summary>
+A test for txtLoc1
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtlenTest">
+	<summary>
+A test for txtlen
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtlatitudeTest">
+	<summary>
+A test for txtlatitude
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtKmtTest">
+	<summary>
+A test for txtKmt
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtKM2Test">
+	<summary>
+A test for txtKM2
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtKmTest">
+	<summary>
+A test for txtKm
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtHM2Test">
+	<summary>
+A test for txtHM2
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtHMTest">
+	<summary>
+A test for txtHM
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtheightTest">
+	<summary>
+A test for txtheight
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtDivTest">
+	<summary>
+A test for txtDiv
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtdepthTest">
+	<summary>
+A test for txtdepth
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtDateTest">
+	<summary>
+A test for txtDate
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtChTest">
+	<summary>
+A test for txtCh
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtbpTest">
+	<summary>
+A test for txtbp
+</summary>
+</member><member name="M:sample_test.frmDataTest.pnlOptsTest">
+	<summary>
+A test for pnlOpts
+</summary>
+</member><member name="M:sample_test.frmDataTest.PictureBox1Test">
+	<summary>
+A test for PictureBox1
+</summary>
+</member><member name="M:sample_test.frmDataTest.Panel4Test">
+	<summary>
+A test for Panel4
+</summary>
+</member><member name="M:sample_test.frmDataTest.Panel3Test">
+	<summary>
+A test for Panel3
+</summary>
+</member><member name="M:sample_test.frmDataTest.Panel2Test">
+	<summary>
+A test for Panel2
+</summary>
+</member><member name="M:sample_test.frmDataTest.Panel1Test">
+	<summary>
+A test for Panel1
+</summary>
+</member><member name="M:sample_test.frmDataTest.ListBox2Test">
+	<summary>
+A test for ListBox2
+</summary>
+</member><member name="M:sample_test.frmDataTest.ListBox1Test">
+	<summary>
+A test for ListBox1
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblTyp2Test">
+	<summary>
+A test for lblTyp2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblTypTest">
+	<summary>
+A test for lblTyp
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblTP2Test">
+	<summary>
+A test for lblTP2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblStationTest">
+	<summary>
+A test for lblStation
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblProbeTest">
+	<summary>
+A test for lblProbe
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblPrevTest">
+	<summary>
+A test for lblPrev
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblPHTest">
+	<summary>
+A test for lblPH
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblOpts3Test">
+	<summary>
+A test for lblOpts3
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblOpts2Test">
+	<summary>
+A test for lblOpts2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblOpts1Test">
+	<summary>
+A test for lblOpts1
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblOpts0Test">
+	<summary>
+A test for lblOpts0
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMeter2Test">
+	<summary>
+A test for lblMeter2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMenu7Test">
+	<summary>
+A test for lblMenu7
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMenu6Test">
+	<summary>
+A test for lblMenu6
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMenu5Test">
+	<summary>
+A test for lblMenu5
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMenu4Test">
+	<summary>
+A test for lblMenu4
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMenu3Test">
+	<summary>
+A test for lblMenu3
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMenu2Test">
+	<summary>
+A test for lblMenu2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMenu1Test">
+	<summary>
+A test for lblMenu1
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblLoc2Test">
+	<summary>
+A test for lblLoc2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblLocTest">
+	<summary>
+A test for lblLoc
+</summary>
+</member><member name="M:sample_test.frmDataTest.lbllenTest">
+	<summary>
+A test for lbllen
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblKM2Test">
+	<summary>
+A test for lblKM2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblHM2Test">
+	<summary>
+A test for lblHM2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblHMTest">
+	<summary>
+A test for lblHM
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblFLocTest">
+	<summary>
+A test for lblFLoc
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblFlawTest">
+	<summary>
+A test for lblFlaw
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblFileTest">
+	<summary>
+A test for lblFile
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblDesc2Test">
+	<summary>
+A test for lblDesc2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblDescTest">
+	<summary>
+A test for lblDesc
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblCode2Test">
+	<summary>
+A test for lblCode2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblCodeTest">
+	<summary>
+A test for lblCode
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblClass2Test">
+	<summary>
+A test for lblClass2
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblClassTest">
+	<summary>
+A test for lblClass
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label9Test">
+	<summary>
+A test for Label9
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label8Test">
+	<summary>
+A test for Label8
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label7Test">
+	<summary>
+A test for Label7
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label6Test">
+	<summary>
+A test for Label6
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label5Test">
+	<summary>
+A test for Label5
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label4Test">
+	<summary>
+A test for Label4
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label3Test">
+	<summary>
+A test for Label3
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label2Test">
+	<summary>
+A test for Label2
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label10Test">
+	<summary>
+A test for Label10
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label1Test">
+	<summary>
+A test for Label1
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbTyp2Test">
+	<summary>
+A test for cmbTyp2
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbTypTest">
+	<summary>
+A test for cmbTyp
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbProbeTest">
+	<summary>
+A test for cmbProbe
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbMask2Test">
+	<summary>
+A test for cmbMask2
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbMask1Test">
+	<summary>
+A test for cmbMask1
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbLRTest">
+	<summary>
+A test for cmbLR
+</summary>
+</member><member name="M:sample_test.frmDataTest.CmblistfilesTest">
+	<summary>
+A test for Cmblistfiles
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbFLoc2Test">
+	<summary>
+A test for cmbFLoc2
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbFLocTest">
+	<summary>
+A test for cmbFLoc
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbCrisTest">
+	<summary>
+A test for cmbCris
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbCode2Test">
+	<summary>
+A test for cmbCode2
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbCodeTest">
+	<summary>
+A test for cmbCode
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbClass2Test">
+	<summary>
+A test for cmbClass2
+</summary>
+</member><member name="M:sample_test.frmDataTest.cmbClassTest">
+	<summary>
+A test for cmbClass
+</summary>
+</member><member name="M:sample_test.frmDataTest.chkCRISTest">
+	<summary>
+A test for chkCRIS
+</summary>
+</member><member name="M:sample_test.frmDataTest.WriteFreezeData2Test">
+	<summary>
+A test for WriteFreezeData2
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtTP2_TextChangedTest">
+	<summary>
+A test for txtTP2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtTP_TextChangedTest">
+	<summary>
+A test for txtTP_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtSta2_TextChangedTest">
+	<summary>
+A test for txtSta2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtSta1_TextChangedTest">
+	<summary>
+A test for txtSta1_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtSec_TextChangedTest">
+	<summary>
+A test for txtSec_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtrailtype_TextChangedTest">
+	<summary>
+A test for txtrailtype_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtPH2_TextChangedTest">
+	<summary>
+A test for txtPH2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtName_TextChangedTest">
+	<summary>
+A test for txtName_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtmeter_TextChangedTest">
+	<summary>
+A test for txtmeter_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtMask4_TextChangedTest">
+	<summary>
+A test for txtMask4_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtMask3_TextChangedTest">
+	<summary>
+A test for txtMask3_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtLoc3_TextChangedTest">
+	<summary>
+A test for txtLoc3_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtLoc2_TextChangedTest">
+	<summary>
+A test for txtLoc2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtLoc1_TextChangedTest">
+	<summary>
+A test for txtLoc1_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtKM2_TextChanged_1Test">
+	<summary>
+A test for txtKM2_TextChanged_1
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtKM2_TextChangedTest">
+	<summary>
+A test for txtKM2_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtKm_TextChangedTest">
+	<summary>
+A test for txtKm_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.txtDiv_TextChangedTest">
+	<summary>
+A test for txtDiv_TextChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.ShowMenuTest">
+	<summary>
+A test for ShowMenu
+</summary>
+</member><member name="M:sample_test.frmDataTest.SetTextBoxTest">
+	<summary>
+A test for SetTextBox
+</summary>
+</member><member name="M:sample_test.frmDataTest.SaveInfoTest">
+	<summary>
+A test for SaveInfo
+</summary>
+</member><member name="M:sample_test.frmDataTest.RemoveGT127Test">
+	<summary>
+A test for RemoveGT127
+</summary>
+</member><member name="M:sample_test.frmDataTest.ReadInfoTest">
+	<summary>
+A test for ReadInfo
+</summary>
+</member><member name="M:sample_test.frmDataTest.ReadFreezeDataTest">
+	<summary>
+A test for ReadFreezeData
+</summary>
+</member><member name="M:sample_test.frmDataTest.Panel2_GotFocusTest">
+	<summary>
+A test for Panel2_GotFocus
+</summary>
+</member><member name="M:sample_test.frmDataTest.ListBox2_SelectedIndexChangedTest">
+	<summary>
+A test for ListBox2_SelectedIndexChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.ListBox2_LostFocusTest">
+	<summary>
+A test for ListBox2_LostFocus
+</summary>
+</member><member name="M:sample_test.frmDataTest.ListBox2_GotFocusTest">
+	<summary>
+A test for ListBox2_GotFocus
+</summary>
+</member><member name="M:sample_test.frmDataTest.ListBox1_SelectedIndexChangedTest">
+	<summary>
+A test for ListBox1_SelectedIndexChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.ListBox1_LostFocusTest">
+	<summary>
+A test for ListBox1_LostFocus
+</summary>
+</member><member name="M:sample_test.frmDataTest.ListBox1_GotFocusTest">
+	<summary>
+A test for ListBox1_GotFocus
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblPrev_ParentChangedTest">
+	<summary>
+A test for lblPrev_ParentChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.lblMenu1_ParentChangedTest">
+	<summary>
+A test for lblMenu1_ParentChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.Label4_ParentChangedTest">
+	<summary>
+A test for Label4_ParentChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.InitializeComponentTest">
+	<summary>
+A test for InitializeComponent
+</summary>
+</member><member name="M:sample_test.frmDataTest.frmData_LoadTest">
+	<summary>
+A test for frmData_Load
+</summary>
+</member><member name="M:sample_test.frmDataTest.frmData_KeyUpTest">
+	<summary>
+A test for frmData_KeyUp
+</summary>
+</member><member name="M:sample_test.frmDataTest.frmData_KeyPressTest">
+	<summary>
+A test for frmData_KeyPress
+</summary>
+</member><member name="M:sample_test.frmDataTest.frmData_KeyDownTest">
+	<summary>
+A test for frmData_KeyDown
+</summary>
+</member><member name="M:sample_test.frmDataTest.FileTransferTest">
+	<summary>
+A test for FileTransfer
+</summary>
+</member><member name="M:sample_test.frmDataTest.FileListTest">
+	<summary>
+A test for FileList
+</summary>
+</member><member name="M:sample_test.frmDataTest.FileDeleteTest">
+	<summary>
+A test for FileDelete
+</summary>
+</member><member name="M:sample_test.frmDataTest.DisposeTest">
+	<summary>
+A test for Dispose
+</summary>
+</member><member name="M:sample_test.frmDataTest.DirListTest">
+	<summary>
+A test for DirList
+</summary>
+</member><member name="M:sample_test.frmDataTest.DelDirectoryTest">
+	<summary>
+A test for DelDirectory
+</summary>
+</member><member name="M:sample_test.frmDataTest.CopyFileTest">
+	<summary>
+A test for CopyFile
+</summary>
+</member><member name="M:sample_test.frmDataTest.CopyDirectoryTest">
+	<summary>
+A test for CopyDirectory
+</summary>
+</member><member name="M:sample_test.frmDataTest.Cmblistfiles_SelectedIndexChangedTest">
+	<summary>
+A test for Cmblistfiles_SelectedIndexChanged
+</summary>
+</member><member name="M:sample_test.frmDataTest.frmDataConstructorTest">
+	<summary>
+A test for frmData Constructor
+</summary>
+</member><member name="T:sample_test.frmDataTest">
+	<summary>
+This is a test class for frmDataTest and is intended
+to contain all frmDataTest Unit Tests
+</summary>
+</member><member name="P:sample_test.frmColorsTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor9Test">
+	<summary>
+A test for lstColor9
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor8Test">
+	<summary>
+A test for lstColor8
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor7Test">
+	<summary>
+A test for lstColor7
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor6Test">
+	<summary>
+A test for lstColor6
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor5Test">
+	<summary>
+A test for lstColor5
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor4Test">
+	<summary>
+A test for lstColor4
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor3Test">
+	<summary>
+A test for lstColor3
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor2Test">
+	<summary>
+A test for lstColor2
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor1Test">
+	<summary>
+A test for lstColor1
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblTitleTest">
+	<summary>
+A test for lblTitle
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu9Test">
+	<summary>
+A test for lblMenu9
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu8Test">
+	<summary>
+A test for lblMenu8
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu7Test">
+	<summary>
+A test for lblMenu7
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu6Test">
+	<summary>
+A test for lblMenu6
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu5Test">
+	<summary>
+A test for lblMenu5
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu4Test">
+	<summary>
+A test for lblMenu4
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu3Test">
+	<summary>
+A test for lblMenu3
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu2Test">
+	<summary>
+A test for lblMenu2
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblMenu1Test">
+	<summary>
+A test for lblMenu1
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC9Test">
+	<summary>
+A test for lblC9
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC8Test">
+	<summary>
+A test for lblC8
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC7Test">
+	<summary>
+A test for lblC7
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC6Test">
+	<summary>
+A test for lblC6
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC5Test">
+	<summary>
+A test for lblC5
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC4Test">
+	<summary>
+A test for lblC4
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC3Test">
+	<summary>
+A test for lblC3
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC2Test">
+	<summary>
+A test for lblC2
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lblC1Test">
+	<summary>
+A test for lblC1
+</summary>
+</member><member name="M:sample_test.frmColorsTest.SetlstTest">
+	<summary>
+A test for Setlst
+</summary>
+</member><member name="M:sample_test.frmColorsTest.SetDefaultTest">
+	<summary>
+A test for SetDefault
+</summary>
+</member><member name="M:sample_test.frmColorsTest.SetControlsTest">
+	<summary>
+A test for SetControls
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor_SelectedIndexChangedTest">
+	<summary>
+A test for lstColor_SelectedIndexChanged
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor_LostFocusTest">
+	<summary>
+A test for lstColor_LostFocus
+</summary>
+</member><member name="M:sample_test.frmColorsTest.lstColor_GotFocusTest">
+	<summary>
+A test for lstColor_GotFocus
+</summary>
+</member><member name="M:sample_test.frmColorsTest.InitializeComponentTest">
+	<summary>
+A test for InitializeComponent
+</summary>
+</member><member name="M:sample_test.frmColorsTest.frmColors_PaintTest">
+	<summary>
+A test for frmColors_Paint
+</summary>
+</member><member name="M:sample_test.frmColorsTest.frmColors_LoadTest">
+	<summary>
+A test for frmColors_Load
+</summary>
+</member><member name="M:sample_test.frmColorsTest.frmColors_ActivatedTest">
+	<summary>
+A test for frmColors_Activated
+</summary>
+</member><member name="M:sample_test.frmColorsTest.Form5_KeyDownTest">
+	<summary>
+A test for Form5_KeyDown
+</summary>
+</member><member name="M:sample_test.frmColorsTest.DisposeTest">
+	<summary>
+A test for Dispose
+</summary>
+</member><member name="M:sample_test.frmColorsTest.frmColorsConstructorTest">
+	<summary>
+A test for frmColors Constructor
+</summary>
+</member><member name="T:sample_test.frmColorsTest">
+	<summary>
+This is a test class for frmColorsTest and is intended
+to contain all frmColorsTest Unit Tests
+</summary>
+</member><member name="P:sample_test.frmCalibTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.frmCalibTest.Timer1Test">
+	<summary>
+A test for Timer1
+</summary>
+</member><member name="M:sample_test.frmCalibTest.Panel2Test">
+	<summary>
+A test for Panel2
+</summary>
+</member><member name="M:sample_test.frmCalibTest.Panel1Test">
+	<summary>
+A test for Panel1
+</summary>
+</member><member name="M:sample_test.frmCalibTest.ListBox1Test">
+	<summary>
+A test for ListBox1
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblZoomRTest">
+	<summary>
+A test for lblZoomR
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblZoomPTest">
+	<summary>
+A test for lblZoomP
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblZoomMTest">
+	<summary>
+A test for lblZoomM
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblZoomLTest">
+	<summary>
+A test for lblZoomL
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblThreshTest">
+	<summary>
+A test for lblThresh
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblThr2Test">
+	<summary>
+A test for lblThr2
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblSide2Test">
+	<summary>
+A test for lblSide2
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblSide1Test">
+	<summary>
+A test for lblSide1
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblRejectTest">
+	<summary>
+A test for lblReject
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblRangeTest">
+	<summary>
+A test for lblRange
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblPHTest">
+	<summary>
+A test for lblPH
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblMenu7Test">
+	<summary>
+A test for lblMenu7
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblMenu6Test">
+	<summary>
+A test for lblMenu6
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblMenu5Test">
+	<summary>
+A test for lblMenu5
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblMenu4Test">
+	<summary>
+A test for lblMenu4
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblMenu3Test">
+	<summary>
+A test for lblMenu3
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblMenu2Test">
+	<summary>
+A test for lblMenu2
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblMenu1Test">
+	<summary>
+A test for lblMenu1
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblInputTest">
+	<summary>
+A test for lblInput
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblGateWTest">
+	<summary>
+A test for lblGateW
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblGateSTest">
+	<summary>
+A test for lblGateS
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblGainTest">
+	<summary>
+A test for lblGain
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblG2WdTest">
+	<summary>
+A test for lblG2Wd
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblG2StTest">
+	<summary>
+A test for lblG2St
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblDispTest">
+	<summary>
+A test for lblDisp
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblDelayTest">
+	<summary>
+A test for lblDelay
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblCalSetTest">
+	<summary>
+A test for lblCalSet
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC9Test">
+	<summary>
+A test for lblC9
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC8Test">
+	<summary>
+A test for lblC8
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC7Test">
+	<summary>
+A test for lblC7
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC6Test">
+	<summary>
+A test for lblC6
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC5Test">
+	<summary>
+A test for lblC5
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC4Test">
+	<summary>
+A test for lblC4
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC3Test">
+	<summary>
+A test for lblC3
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC2Test">
+	<summary>
+A test for lblC2
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC10Test">
+	<summary>
+A test for lblC10
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC1Test">
+	<summary>
+A test for lblC1
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblAngTest">
+	<summary>
+A test for lblAng
+</summary>
+</member><member name="M:sample_test.frmCalibTest.ViewGraphTest">
+	<summary>
+A test for ViewGraph
+</summary>
+</member><member name="M:sample_test.frmCalibTest.txt_KeyPressTest">
+	<summary>
+A test for txt_KeyPress
+</summary>
+</member><member name="M:sample_test.frmCalibTest.ToraGetDataTest">
+	<summary>
+A test for ToraGetData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.Timer1_TickTest">
+	<summary>
+A test for Timer1_Tick
+</summary>
+</member><member name="M:sample_test.frmCalibTest.TextBox1VisibleTest">
+	<summary>
+A test for TextBox1Visible
+</summary>
+</member><member name="M:sample_test.frmCalibTest.TextBox10VisibleTest">
+	<summary>
+A test for TextBox10Visible
+</summary>
+</member><member name="M:sample_test.frmCalibTest.StoreValsTest">
+	<summary>
+A test for StoreVals
+</summary>
+</member><member name="M:sample_test.frmCalibTest.ShowTextBoxesTest">
+	<summary>
+A test for ShowTextBoxes
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SetUpConfigTest">
+	<summary>
+A test for SetUpConfig
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SetTextBoxTest">
+	<summary>
+A test for SetTextBox
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SetPlotsDataTest">
+	<summary>
+A test for SetPlotsData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SetPlotsTest">
+	<summary>
+A test for SetPlots
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SetMenuTest">
+	<summary>
+A test for SetMenu
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SetLabelsTest">
+	<summary>
+A test for SetLabels
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SavePRVTest">
+	<summary>
+A test for SavePRV
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SavePRHTest">
+	<summary>
+A test for SavePRH
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SavePRCTest">
+	<summary>
+A test for SavePRC
+</summary>
+</member><member name="M:sample_test.frmCalibTest.SaveInfo0Test">
+	<summary>
+A test for SaveInfo0
+</summary>
+</member><member name="M:sample_test.frmCalibTest.ReadDataTest">
+	<summary>
+A test for ReadData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.PlotEnvTest">
+	<summary>
+A test for PlotEnv
+</summary>
+</member><member name="M:sample_test.frmCalibTest.PlotCurvesTTest">
+	<summary>
+A test for PlotCurvesT
+</summary>
+</member><member name="M:sample_test.frmCalibTest.PlotCurvesDataTest">
+	<summary>
+A test for PlotCurvesData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.PlotCurvesTest">
+	<summary>
+A test for PlotCurves
+</summary>
+</member><member name="M:sample_test.frmCalibTest.LblsVisibleTest">
+	<summary>
+A test for LblsVisible
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblCVisibleTest">
+	<summary>
+A test for lblCVisible
+</summary>
+</member><member name="M:sample_test.frmCalibTest.lblC1VisibleTest">
+	<summary>
+A test for lblC1Visible
+</summary>
+</member><member name="M:sample_test.frmCalibTest.InitializeComponentTest">
+	<summary>
+A test for InitializeComponent
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalib_PaintTest">
+	<summary>
+A test for frmCalib_Paint
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalib_LoadTest1">
+	<summary>
+A test for frmCalib_Load
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalib_LoadTest">
+	<summary>
+A test for frmCalib_Load
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalib_KeyUpTest">
+	<summary>
+A test for frmCalib_KeyUp
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalib_KeyPressTest">
+	<summary>
+A test for frmCalib_KeyPress
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalib_KeyDownTest">
+	<summary>
+A test for frmCalib_KeyDown
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalib_ClosedTest">
+	<summary>
+A test for frmCalib_Closed
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalib_ActivatedTest">
+	<summary>
+A test for frmCalib_Activated
+</summary>
+</member><member name="M:sample_test.frmCalibTest.EditConfigTest">
+	<summary>
+A test for EditConfig
+</summary>
+</member><member name="M:sample_test.frmCalibTest.DrawPolygonPointTest">
+	<summary>
+A test for DrawPolygonPoint
+</summary>
+</member><member name="M:sample_test.frmCalibTest.DoEditMenuTest">
+	<summary>
+A test for DoEditMenu
+</summary>
+</member><member name="M:sample_test.frmCalibTest.DispValsTest">
+	<summary>
+A test for DispVals
+</summary>
+</member><member name="M:sample_test.frmCalibTest.DispTextBoxes1Test">
+	<summary>
+A test for DispTextBoxes1
+</summary>
+</member><member name="M:sample_test.frmCalibTest.DispTextBoxesTest">
+	<summary>
+A test for DispTextBoxes
+</summary>
+</member><member name="M:sample_test.frmCalibTest.DisposeTest">
+	<summary>
+A test for Dispose
+</summary>
+</member><member name="M:sample_test.frmCalibTest.DelConfigTest">
+	<summary>
+A test for DelConfig
+</summary>
+</member><member name="M:sample_test.frmCalibTest.CreateConfigFolderTest">
+	<summary>
+A test for CreateConfigFolder
+</summary>
+</member><member name="M:sample_test.frmCalibTest.ClearLblsTest">
+	<summary>
+A test for ClearLbls
+</summary>
+</member><member name="M:sample_test.frmCalibTest.ClearAllKeysTest">
+	<summary>
+A test for ClearAllKeys
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AddNewFileNameTest">
+	<summary>
+A test for AddNewFileName
+</summary>
+</member><member name="M:sample_test.frmCalibTest.Add2CnfListTest">
+	<summary>
+A test for Add2CnfList
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireZoomTest">
+	<summary>
+A test for AcquireZoom
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireWRTDataTest">
+	<summary>
+A test for AcquireWRTData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquirePRHDataTest">
+	<summary>
+A test for AcquirePRHData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquirePRCDataTest">
+	<summary>
+A test for AcquirePRCData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireFreezeEnvTest">
+	<summary>
+A test for AcquireFreezeEnv
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireFreezeDrawGridTest">
+	<summary>
+A test for AcquireFreezeDrawGrid
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireFreezeDataTest">
+	<summary>
+A test for AcquireFreezeData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireFreezeTest">
+	<summary>
+A test for AcquireFreeze
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireDPAllTest">
+	<summary>
+A test for AcquireDPAll
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireDPTest">
+	<summary>
+A test for AcquireDP
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireData2Test">
+	<summary>
+A test for AcquireData2
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireDataTest">
+	<summary>
+A test for AcquireData
+</summary>
+</member><member name="M:sample_test.frmCalibTest.AcquireTest">
+	<summary>
+A test for Acquire
+</summary>
+</member><member name="M:sample_test.frmCalibTest.frmCalibConstructorTest">
+	<summary>
+A test for frmCalib Constructor
+</summary>
+</member><member name="T:sample_test.frmCalibTest">
+	<summary>
+This is a test class for frmCalibTest and is intended
+to contain all frmCalibTest Unit Tests
+</summary>
+</member><member name="P:sample_test.clsGpsLocationTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.ToDMSTest">
+	<summary>
+A test for ToDMS
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.toDecimalTest">
+	<summary>
+A test for toDecimal
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.OpenGpsPortTest">
+	<summary>
+A test for OpenGpsPort
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.IsOpenTest">
+	<summary>
+A test for IsOpen
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.GetPosTest">
+	<summary>
+A test for GetPos
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.GetMsgTest">
+	<summary>
+A test for GetMsg
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.FindComPortTest">
+	<summary>
+A test for FindComPort
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.clsGpsLocationConstructorTest1">
+	<summary>
+A test for clsGpsLocation Constructor
+</summary>
+</member><member name="M:sample_test.clsGpsLocationTest.clsGpsLocationConstructorTest">
+	<summary>
+A test for clsGpsLocation Constructor
+</summary>
+</member><member name="T:sample_test.clsGpsLocationTest">
+	<summary>
+This is a test class for clsGpsLocationTest and is intended
+to contain all clsGpsLocationTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

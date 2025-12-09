@@ -1,0 +1,22 @@
+﻿Version=6.80
+NumberOfForms=0
+FormWidth=238
+FormHeight=268
+IconFile=
+NumberOfDesktopIncludes=0
+NumberOfDeviceIncludes=0
+NumberOfObjects=0
+NumberOfModules=0
+Sub designer
+end sub
+@EndOfDesignText@
+Sub Globals
+	'Declare the global variables here.
+
+End Sub
+
+Sub App_Start
+	For i= 1 To 1000
+		j=j+1
+	Next i
+End Sub
