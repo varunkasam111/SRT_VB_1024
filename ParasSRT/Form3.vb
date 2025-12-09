@@ -4063,25 +4063,34 @@ End If
                         vmax = x
                         imax = i
                     End If
+                    objGraphicsFrm.DrawLine(ThisPen, i * Sx + Lm, Bm, i * Sx + Lm, Bm - Sy * x) ''''''VARUN added TO PLOT FREEZE as entire locations instead ofhighest peaks 
+                    ''''''''''''''''''''DATA to PRV file is sent all the data instead of higehst peaks only 
+                    If pt0(i).Y < x Then
+                        pt0(i).Y = x
+                    End If
 
                 Next i
+                If vmax > vmaxmax Then
+                    vmaxmax = vmax
+                    imaxmax = imax
+                End If
 
-                If pt0(imax).Y < vmax Then
+                If pt0(imax).Y <= vmax Then
                     pt0(imax).Y = vmax
                     xx = pt0(imax).X
-
+                    '''''''''''VARUN COMENTED AS THE FREEZE IS PLOTTING ONLY HIGHEST PEAK
                     'Ascan
-                    If Bm - Sy * vmax < Tm Then
-                        objGraphicsFrm.DrawLine(ThisPen, xx, Bm, xx, Tm + 2)
-                    Else
-                        'plotting the A-Scan Peak From C to VB freeze window.
-                        objGraphicsFrm.DrawLine(ThisPen, xx, Bm, xx, Bm - Sy * vmax)
-                    End If
+                    'If Bm - Sy * vmax < Tm Then
+                    '    objGraphicsFrm.DrawLine(ThisPen, xx, Bm, xx, Tm + 2)
+                    'Else
+                    '    'plotting the A-Scan Peak From C to VB freeze window.
+                    '    objGraphicsFrm.DrawLine(ThisPen, xx, Bm, xx, Bm - Sy * vmax)
+                    'End If
 
-                    If vmax > vmaxmax Then
-                        vmaxmax = vmax
-                        imaxmax = imax
-                    End If
+                    'If vmax > vmaxmax Then
+                    '    vmaxmax = vmax
+                    '    imaxmax = imax
+                    'End If
 
 #If BSCAN Then
                     ' Store the BSCAN Data
