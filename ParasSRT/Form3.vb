@@ -4118,23 +4118,22 @@ End If
 
                     If angle = 0 Then
                         Channel_Angle = 1
-                        'x_index1 = 300
-                        x_index1 = 480
+                        x_index1 = 300
                     ElseIf angle = 70 Then
                         If j = 1 Or j = 3 Or j = 5 Or j = 7 Then
                             Channel_Angle = 0.3
-                            x_index1 = 480 - (ti * 0.4095)
+                            x_index1 = 300 - (ti * 0.4095)
                         ElseIf j = 2 Or j = 4 Or j = 6 Or j = 8 Then
                             Channel_Angle = 0.3
-                            x_index1 = 480 + (ti * 0.4095)
+                            x_index1 = 300 + (ti * 0.4095)
                         End If
                     ElseIf angle = 37 Then
                         If j = 1 Or j = 3 Then
                             Channel_Angle = 1
-                            x_index1 = 480 - (ti * 0.4095)
+                            x_index1 = 300 - (ti * 0.4095)
                         ElseIf j = 2 Or j = 4 Then
                             Channel_Angle = 0.8
-                            x_index1 = 480 + (ti * 0.2941)
+                            x_index1 = 300 + (ti * 0.2941)
                         End If
                     End If
 
@@ -4997,23 +4996,23 @@ End If
 
                     If angle = 0 Then
                         Channel_Angle = 1
-                        'x_index1 = 300
-                        x_index1 = 480
+                        x_index1 = 300
+                        'x_index1 = 480
                     ElseIf angle = 70 Then
                         If curi = 1 Or curi = 3 Or curi = 5 Or curi = 7 Then
                             Channel_Angle = 0.3
-                            x_index1 = 480 - (ti * 0.4095)
+                            x_index1 = 300 - (ti * 0.4095)
                         ElseIf curi = 2 Or curi = 4 Or curi = 6 Or curi = 8 Then
                             Channel_Angle = 0.3
-                            x_index1 = 480 + (ti * 0.2941)
+                            x_index1 = 300 + (ti * 0.2941)
                         End If
                     ElseIf angle = 37 Then
                         If curi = 1 Or curi = 3 Then
                             Channel_Angle = 0.6
-                            x_index1 = 480 - (ti * 0.4095)
+                            x_index1 = 300 - (ti * 0.4095)
                         ElseIf curi = 2 Or curi = 4 Then
                             Channel_Angle = 0.6
-                            x_index1 = 480 + (ti * 0.4095)
+                            x_index1 = 300 + (ti * 0.4095)
                         End If
                     End If
 
